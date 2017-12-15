@@ -1044,12 +1044,6 @@ $(document).ready(function()
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#TextHram').offset().top }, 600, 'linear');
    });
-$(window).load(function() {
-
- $(".loader_inner").fadeOut();
- $(".loader").delay(400).fadeOut("slow");
-
-});
    var jQueryZuykarOptions =
    {
       hide: true,
@@ -1140,6 +1134,29 @@ $(window).load(function() {
       classes: { 'ui-tooltip' : 'jQueryToolTip37' }
    };
    $("#wb_ImageDondyDor").tooltip(jQueryToolTip37Options);
+   $("a[href*='#DondydorInfo']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#DondydorInfo').offset().top }, 600, 'linear');
+   });
+   $("a[data-rel='PhotoGallery38']").attr('rel', 'PhotoGallery38');
+   $("a[rel^='PhotoGallery38']").fancybox({});
+   var jQueryToolTip46Options =
+   {
+      hide: true,
+      show: true,
+      content: "<span style=\"color:#265A88;font-family:Tahoma;font-size:16px;\"><strong>На яндекс карте</strong></span>",
+      items: '#wb_MaterialIcon38',
+      position: { my: "left center-3", at: "right center", collision: "flipfit" },
+      classes: { 'ui-tooltip' : 'jQueryToolTip46' }
+   };
+   $("#wb_MaterialIcon38").tooltip(jQueryToolTip46Options);
+$(window).load(function() {
+
+ $(".loader_inner").fadeOut();
+ $(".loader").delay(400).fadeOut("slow");
+
+});
    $('img[data-src]').lazyload();
 });
 </script>
@@ -1178,7 +1195,7 @@ $(window).load(function() {
 
 
 
-<div id="Layer12" style="position:absolute;text-align:left;visibility:hidden;left:1047px;top:130px;width:457px;height:150px;z-index:487;">
+<div id="Layer12" style="position:absolute;text-align:left;visibility:hidden;left:1047px;top:130px;width:457px;height:150px;z-index:490;">
 <div id="wb_Text35" style="position:absolute;left:34px;top:30px;width:148px;height:19px;z-index:258;">
 <span style="color:#808080;font-family:Tahoma;font-size:16px;line-height:19px;">МО &quot;Город Глазов&quot;</span></div>
 <div id="wb_Text37" style="position:absolute;left:34px;top:53px;width:148px;height:38px;z-index:259;">
@@ -1245,30 +1262,31 @@ $(window).load(function() {
 
 
 
-<div id="wb_Heading1" style="position:absolute;left:0px;top:1161px;width:68px;height:69px;z-index:533;">
+
+
+
+
+
+
+
+
+
+
+<div id="wb_Heading1" style="position:absolute;left:0px;top:1161px;width:68px;height:69px;z-index:546;">
 <h1 id="Heading1">Краеведческая карта города Глазова и Глазовского района</h1></div>
 <!--preloader-->
 <div class="loader">
  <div class="loader_inner"></div>
 </div>
 <!--/preloader-->
-
-
-
-
-
-
-
-
-
 </div>
-<div id="Fon" style="position:fixed;text-align:center;left:0;top:0;right:0;bottom:0;width:1019px;height:1030px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:544;">
+<div id="Fon" style="position:fixed;text-align:center;left:0;top:0;right:0;bottom:0;width:1019px;height:1030px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:548;">
 <div id="Fon_Container" style="width:1920px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_Fon2" style="position:absolute;left:53px;top:35px;width:906px;height:961px;z-index:0;">
 <img src="images/sverhu.jpg" id="Fon2" alt=""></div>
 </div>
 </div>
-<div id="Layer1" style="position:fixed;text-align:center;left:0;top:0;right:0;bottom:0;width:968px;height:940px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:545;">
+<div id="Layer1" style="position:fixed;text-align:center;left:0;top:0;right:0;bottom:0;width:968px;height:940px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:549;">
 <div id="Layer1_Container" style="width:1920px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_Image2" style="position:absolute;left:131px;top:29px;width:807px;height:540px;z-index:1;">
 <img src="images/666666666666.png" id="Image2" alt=""></div>
@@ -1278,7 +1296,7 @@ $(window).load(function() {
 <img src="images/666666666666c.png" id="Image1" alt=""></div>
 </div>
 </div>
-<div id="KartaSloy" style="position:fixed;text-align:center;left:0;top:0;right:0;bottom:0;width:906px;height:926px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:546;">
+<div id="KartaSloy" style="position:fixed;text-align:center;left:0;top:0;right:0;bottom:0;width:906px;height:926px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:550;">
 <div id="KartaSloy_Container" style="width:1920px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <!-- schetchikYandex -->
 <div id="Html1" style="position:absolute;left:424px;top:513px;width:143px;height:121px;z-index:84">
@@ -1539,7 +1557,7 @@ $(window).load(function() {
 </div>
 </div>
 </div>
-<div id="Layer4" style="position:absolute;text-align:left;left:0px;top:266px;width:325px;height:891px;z-index:547;">
+<div id="Layer4" style="position:absolute;text-align:left;left:0px;top:266px;width:325px;height:891px;z-index:551;">
 <div id="KGR" style="position:absolute;text-align:left;left:26px;top:167px;width:269px;height:88px;z-index:150;">
 <div id="wb_Image5" style="position:absolute;left:9px;top:12px;width:250px;height:36px;z-index:123;">
 <img src="images/OGR.png" id="Image5" alt=""></div>
@@ -1613,7 +1631,7 @@ $(window).load(function() {
 <a href="#" onclick="ShowObjectWithEffect('KartaSloy', 1, 'dropright', 500);ShowObjectWithEffect('LayerIstoriay', 0, 'fade', 500);ShowObjectWithEffect('LayerGorodishe', 0, 'fade', 500);ShowObjectWithEffect('Layer19', 0, 'dropup', 500);ShowObjectWithEffect('TextHram', 0, 'fade', 500);ShowObjectWithEffect('VidKartyHram', 0, 'dropright', 500);Animate('wb_Image31', '137', '', '', '', '', 250, '');ShowObjectWithEffect('wb_Image30', 1, 'blindhorizontal', 280);ShowObjectWithEffect('Layer3', 0, 'fade', 500);ShowObjectWithEffect('Layer14', 0, 'dropright', 500);ShowObjectWithEffect('LayerDondyDor', 1, 'dropup', 500);return false;" onmousedown="ShowObjectWithEffect('LayerHram', 0, 'fade', 500);ShowObjectWithEffect('Layer17', 0, 'dropright', 500);ShowObjectWithEffect('wb_KartaText', 0, 'dropright', 500);ShowObjectWithEffect('wb_KartaMO', 0, 'dropright', 500);Animate('wb_Image31', '0', '', '', '', '', 200, '');ShowObjectWithEffect('wb_Image30', 0, 'blindhorizontal', 250);Animate('wb_Image6', '0', '', '', '', '', 250, '');ShowObjectWithEffect('wb_Image4', 0, 'blindhorizontal', 280);Animate('wb_Image10', '0', '', '', '', '', 250, '');ShowObjectWithEffect('wb_Image8', 0, 'blindhorizontal', 280);Animate('wb_Image13', '0', '', '', '', '', 250, '');ShowObjectWithEffect('wb_Image12', 0, 'blindhorizontal', 280);Animate('wb_Image19', '0', '', '', '', '', 250, '');ShowObjectWithEffect('wb_Image18', 0, 'blindhorizontal', 280);Animate('wb_Image16', '0', '', '', '', '', 250, '');ShowObjectWithEffect('wb_Image15', 0, 'blindhorizontal', 280);Animate('wb_Image22', '0', '', '', '', '', 250, '');ShowObjectWithEffect('wb_Image21', 0, 'blindhorizontal', 280);Animate('wb_Image25', '0', '', '', '', '', 250, '');ShowObjectWithEffect('wb_Image24', 0, 'blindhorizontal', 280);Animate('wb_Image28', '0', '', '', '', '', 250, '');ShowObjectWithEffect('wb_Image27', 0, 'blindhorizontal', 280);ShowObjectWithEffect('LayerDondyDor', 0, 'fade', 500);return false;"><img src="images/OGR3.png" id="Image31" alt=""></a></div>
 </div>
 </div>
-<div id="Layer14" style="position:absolute;text-align:left;visibility:hidden;left:1103px;top:433px;width:308px;height:391px;z-index:548;">
+<div id="Layer14" style="position:absolute;text-align:left;visibility:hidden;left:1103px;top:433px;width:308px;height:391px;z-index:552;">
 <div id="wb_Text1" style="position:absolute;left:152px;top:10px;width:117px;height:25px;text-align:center;z-index:218;">
 <span style="color:#808080;font-family:Tahoma;font-size:21px;line-height:25px;">Вид карты</span></div>
 <div id="wb_Text2" style="position:absolute;left:152px;top:77px;width:117px;height:69px;text-align:center;z-index:219;">
@@ -1637,7 +1655,7 @@ $(window).load(function() {
 <div id="wb_Text3" style="position:absolute;left:129px;top:234px;width:161px;height:46px;text-align:center;z-index:222;">
 <span style="color:#808080;font-family:Tahoma;font-size:19px;line-height:23px;">Муниципальные образования</span></div>
 </div>
-<div id="Layer17" style="position:fixed;text-align:center;visibility:hidden;left:0;top:0;right:0;bottom:0;width:860px;height:902px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:549;">
+<div id="Layer17" style="position:fixed;text-align:center;visibility:hidden;left:0;top:0;right:0;bottom:0;width:860px;height:902px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:553;">
 <div id="Layer17_Container" style="width:1920px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_Text4" style="position:absolute;left:347px;top:334px;width:155px;height:21px;z-index:229;cursor: pointer" onclick="Animate('wb_Text4', '', '', '', '', '50', 500, '');$('#Layer13Gulekovo').modal('show');return false;">
 <span style="color:#FFFFFF;font-family:Tahoma;font-size:17px;line-height:21px;"><strong>ГУЛЁКОВО</strong></span></div>
@@ -1704,19 +1722,11 @@ $(window).load(function() {
 <div class="modal-content">
 <div class="modal-body">
 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-<div id="wb_PhotoGallery2" style="position:absolute;left:58px;top:44px;width:86px;height:180px;z-index:280;">
+<div id="wb_PhotoGallery2" style="position:absolute;left:58px;top:44px;width:86px;height:62px;z-index:280;">
 <div id="PhotoGallery2">
    <div class="thumbnails">
       <div class="thumbnail">
          <a href="images/9_13.jpg" data-rel="PhotoGallery2"><img alt="" src="images/min_9_13.jpg"></a>
-      </div>
-      <div class="clearfix visible-col1"></div>
-      <div class="thumbnail">
-         <a href="images/12_4.jpg" data-rel="PhotoGallery2"><img alt="" src="images/min_12_4.jpg"></a>
-      </div>
-      <div class="clearfix visible-col1"></div>
-      <div class="thumbnail">
-         <a href="images/12_5.jpg" data-rel="PhotoGallery2"><img alt="" src="images/min_12_5.jpg"></a>
       </div>
       <div class="clearfix visible-col1"></div>
    </div>
@@ -3028,7 +3038,7 @@ $(window).load(function() {
 <div class="modal-content">
 <div class="modal-body">
 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-<div id="wb_PhotoGallery30" style="position:absolute;left:58px;top:44px;width:86px;height:291px;z-index:384;">
+<div id="wb_PhotoGallery30" style="position:absolute;left:58px;top:44px;width:86px;height:409px;z-index:384;">
 <div id="PhotoGallery30">
    <div class="thumbnails">
       <div class="thumbnail">
@@ -3041,6 +3051,14 @@ $(window).load(function() {
       <div class="clearfix visible-col1"></div>
       <div class="thumbnail">
          <a href="images/12_3.jpg" data-rel="PhotoGallery30"><img alt="" src="images/min_12_3.jpg"></a>
+      </div>
+      <div class="clearfix visible-col1"></div>
+      <div class="thumbnail">
+         <a href="images/12_4.jpg" data-rel="PhotoGallery30"><img alt="" src="images/min_12_4.jpg"></a>
+      </div>
+      <div class="clearfix visible-col1"></div>
+      <div class="thumbnail">
+         <a href="images/12_5.jpg" data-rel="PhotoGallery30"><img alt="" src="images/min_12_5.jpg"></a>
       </div>
       <div class="clearfix visible-col1"></div>
    </div>
@@ -3478,7 +3496,7 @@ $(window).load(function() {
 </div>
 </div>
 </div>
-<div id="VidKartyHram" style="position:absolute;text-align:left;visibility:hidden;left:1103px;top:433px;width:308px;height:391px;z-index:550;">
+<div id="VidKartyHram" style="position:absolute;text-align:left;visibility:hidden;left:1103px;top:433px;width:308px;height:391px;z-index:554;">
 <div id="wb_Text45" style="position:absolute;left:152px;top:10px;width:117px;height:25px;text-align:center;z-index:414;">
 <span style="color:#808080;font-family:Tahoma;font-size:21px;line-height:25px;">Вид карты</span></div>
 <div id="wb_Text72" style="position:absolute;left:152px;top:77px;width:117px;height:69px;text-align:center;z-index:415;">
@@ -3502,7 +3520,7 @@ $(window).load(function() {
 <div id="wb_Text73" style="position:absolute;left:129px;top:234px;width:161px;height:46px;text-align:center;z-index:418;">
 <span style="color:#808080;font-family:Tahoma;font-size:19px;line-height:23px;">Муниципальные образования</span></div>
 </div>
-<div id="TextHram" style="position:fixed;text-align:center;visibility:hidden;left:0;top:0;right:0;bottom:0;width:860px;height:732px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:551;">
+<div id="TextHram" style="position:fixed;text-align:center;visibility:hidden;left:0;top:0;right:0;bottom:0;width:860px;height:732px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:555;">
 <div id="TextHram_Container" style="width:1920px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_Text84" style="position:absolute;left:353px;top:297px;width:72px;height:21px;z-index:425;cursor: pointer" onclick="Animate('wb_Text84', '', '', '', '', '50', 500, '');$('#LumHram').modal('show');return false;">
 <span style="color:#FFFFFF;font-family:Tahoma;font-size:17px;line-height:21px;"><strong>ЛЮМ</strong></span></div>
@@ -3520,6 +3538,67 @@ $(window).load(function() {
 <span style="color:#FFFFFF;font-family:Tahoma;font-size:17px;line-height:21px;"><strong>ОТОГУРТ</strong></span></div>
 <div id="wb_Text101" style="position:absolute;left:385px;top:352px;width:97px;height:21px;z-index:432;cursor: pointer" onclick="Animate('wb_Text101', '', '', '', '', '50', 500, '');$('#PoninoHram').modal('show');return false;">
 <span style="color:#FFFFFF;font-family:Tahoma;font-size:17px;line-height:21px;"><strong>ПОНИНО</strong></span></div>
+</div>
+</div>
+<div id="DondydorInfo" class="modal fade" role="dialog" style="text-align:left;">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-body">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<div id="wb_PhotoGallery38" style="position:absolute;left:35px;top:27px;width:82px;height:507px;z-index:458;">
+<div id="PhotoGallery38">
+   <div class="thumbnails">
+      <div class="thumbnail">
+         <a href="images/20_1.jpg" data-rel="PhotoGallery38"><img alt="" src="images/min_20_1.jpg"></a>
+      </div>
+      <div class="clearfix visible-col1"></div>
+      <div class="thumbnail">
+         <a href="images/20_2.jpg" data-rel="PhotoGallery38"><img alt="" src="images/min_20_2.jpg"></a>
+      </div>
+      <div class="clearfix visible-col1"></div>
+      <div class="thumbnail">
+         <a href="images/20_3.jpg" data-rel="PhotoGallery38"><img alt="" src="images/min_20_3.jpg"></a>
+      </div>
+      <div class="clearfix visible-col1"></div>
+      <div class="thumbnail">
+         <a href="images/20_4.jpg" data-rel="PhotoGallery38"><img alt="" src="images/min_20_4.jpg"></a>
+      </div>
+      <div class="clearfix visible-col1"></div>
+      <div class="thumbnail">
+         <a href="images/20_5.jpg" data-rel="PhotoGallery38"><img alt="" src="images/min_20_5.jpg"></a>
+      </div>
+      <div class="clearfix visible-col1"></div>
+      <div class="thumbnail">
+         <a href="images/20_6.jpg" data-rel="PhotoGallery38"><img alt="" src="images/min_20_6.jpg"></a>
+      </div>
+      <div class="clearfix visible-col1"></div>
+      <div class="thumbnail">
+         <a href="images/20_7.jpg" data-rel="PhotoGallery38"><img alt="" src="images/min_20_7.jpg"></a>
+      </div>
+      <div class="clearfix visible-col1"></div>
+      <div class="thumbnail">
+         <a href="images/20_8.jpg" data-rel="PhotoGallery38"><img alt="" src="images/min_20_8.jpg"></a>
+      </div>
+      <div class="clearfix visible-col1"></div>
+      <div class="thumbnail">
+         <a href="images/20_9.jpg" data-rel="PhotoGallery38"><img alt="" src="images/min_20_9.jpg"></a>
+      </div>
+      <div class="clearfix visible-col1"></div>
+   </div>
+</div></div>
+<div id="wb_MaterialIcon38" style="position:absolute;left:189px;top:18px;width:42px;height:40px;text-align:center;z-index:459;">
+<a href="https://yandex.ru/maps/?um=constructor%3A6a91eddf7029842782278fec15d1dee6aaaa2c0da79c1fb5b3fb19656a7c09ae&source=constructorLink" target="_blank"><svg id="MaterialIcon38" height="40" width="40" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <g transform="scale(0.0781)">
+   <path transform="rotate(180) scale(-1,1) translate(0,-512)" d="M256 267c29 0 53 24 53 53s-24 53 -53 53s-53 -24 -53 -53s24 -53 53 -53zM256 469c83 0 149 -66 149 -149c0 -112 -149 -277 -149 -277s-149 165 -149 277c0 83 66 149 149 149z"/>
+   </g>
+</svg>
+</a></div>
+<textarea name="TextArea2" id="TextArea19" style="position:absolute;left:189px;top:118px;width:757px;height:425px;z-index:460;" rows="17" cols="92" readonly spellcheck="false">В Удмуртии реализуется инвестиционный туристический проект «Глазовская земля – земля Донды». Он объединит в единую сеть северные городища древних удмуртов, на базе которых будет создан многофункциональный комплекс.
+На севере Удмуртии, особенно на территории Глазова и Глазовского района, сосредоточено богатое археологическое наследие - гряда легендарных городищ: Иднакар, Дондыкар, Эбгакар, Весьякар и другие. Разнообразный ландшафт - леса, равнины, река Чепца - определяли мышление и мифологию людей той эпохи. Цель проекта - наглядно представить современникам быт, верования и в целом картину мира древних удмуртов. В Удмуртии реализуется инвестиционный туристический проект «Глазовская земля – земля Донды». Он объединит в единую сеть северные городища древних удмуртов, на базе которых будет создан многофункциональный комплекс.
+
+На севере Удмуртии, особенно на территории Глазова и Глазовского района, сосредоточено богатое археологическое наследие - гряда легендарных городищ: Иднакар, Дондыкар, Эбгакар, Весьякар и другие. Разнообразный ландшафт - леса, равнины, река Чепца - определяли мышление и мифологию людей той эпохи. Цель проекта - наглядно представить современникам быт, верования и в целом картину мира древних удмуртов. Иднакар, Дондыкар, Эбгакар, Весьякар и другие. Разнообразный ландшафт - леса, равнины, река Чепца - определяли мышление и мифологию людей той эпохи. Цель проекта - наглядно представить современникам быт, верования и в целом картину мира древних удмуртов. Мы планируем создать на базе исторических памятников единый туристический комплекс, куда бы приезжали гости из Удмуртии, других регионов и финно-угорских стран. Совместно с учёными из УИИЯЛ УрО РАН, опираясь на исторические факты, разработали бренд «Глазовская земля - легендарная родина удмуртского народа». Наш проект поддерживает депутат Госдумы РФ Алексей Загребин - экс-директор института, а также Администрация Глазовского района. Мы выиграли гранты благотворительного фонда Елены и Геннадия Тимченко на общую сумму 2,1 млн рублей. Эти деньги направлены на реализацию первых этапов проекта. В д. Кочишево уже открылся центр этнической медитации «Храм живого звука». Интерактивная инсталляция знакомит посетителей с песенными традициями народов севера Удмуртии, погружает в атмосферу обрядов, которые сопровождали человека на протяжении всей жизни. Якорным объектом проекта станет культурно-туристический парк «ДондыДор». Он расположится в д. Адам на расстоянии около 10 км от Глазова. Здесь уже имеется необходимая инфраструктура для приёма туристов – дорожные и коммунальные сети, заведения общепита, гостиницы и дома отдыха, лыжная база. На территории площадью около 70 га мы воссоздадим типичное городище эпохи финно-угорского Средневековья. В композицию будет включено несколько реальных археологических памятников, в том числе могильник и селище. Сейчас проводятся землеустроительные работы. К концу лета начнётся строительство входной группы – копии реальной смотровой башни с частоколом. Затем на очереди - реконструкция исторического жилого дома. Объект планируется ввести в 2018 году. Кроме того, на территории парка предполагается строительство биатлонного комплекса. Сегодня идут переговоры с потенциальным инвестором. Будем развивать и другие смежные направления. В итоге появится многофункциональный комплекс, рассчитанный на широкую аудиторию – туристы, любители удмуртской культуры, спортсмены. Здесь же можно проводить различные мероприятия – от фестивалей и ярмарок до свадеб. Всё это позволит в разы увеличить туристический поток и получать большую прибыль.</textarea>
+</div>
+</div>
 </div>
 </div>
 </body>
