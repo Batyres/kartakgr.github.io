@@ -2322,7 +2322,7 @@ body
 {
    position: relative;
    width: 1051px;
-   height: 575px;
+   height: 544px;
 }
 #Layer13Kvalyar .close
 {
@@ -2650,18 +2650,6 @@ body
 {
    fill: #337AB7;
 }
-.jQueryToolTip1
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
-}
 #wb_MaterialIcon2
 {
    background-color: transparent;
@@ -2695,18 +2683,6 @@ body
 #wb_MaterialIcon2:hover g
 {
    fill: #337AB7;
-}
-.jQueryToolTip2
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
 }
 #wb_MaterialIcon3
 {
@@ -2742,18 +2718,6 @@ body
 {
    fill: #337AB7;
 }
-.jQueryToolTip3
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
-}
 #wb_MaterialIcon4
 {
    background-color: transparent;
@@ -2787,18 +2751,6 @@ body
 #wb_MaterialIcon4:hover g
 {
    fill: #337AB7;
-}
-.jQueryToolTip4
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
 }
 #Layer13VSludka .modal-content
 {
@@ -3025,18 +2977,6 @@ body
 {
    fill: #337AB7;
 }
-.jQueryToolTip5
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
-}
 #Layer13Lum .modal-content
 {
    background-color: #FFFFFF;
@@ -3261,18 +3201,6 @@ body
 #wb_MaterialIcon6:hover g
 {
    fill: #337AB7;
-}
-.jQueryToolTip6
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
 }
 #Layer13Dondykar .modal-content
 {
@@ -3499,18 +3427,6 @@ body
 {
    fill: #337AB7;
 }
-.jQueryToolTip7
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
-}
 #Layer13Gulekovo .modal-content
 {
    background-color: #FFFFFF;
@@ -3736,18 +3652,6 @@ body
 {
    fill: #337AB7;
 }
-.jQueryToolTip8
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
-}
 #Layer13UKluchi .modal-content
 {
    background-color: #FFFFFF;
@@ -3925,11 +3829,6 @@ body
 {
    display: block;
 }
-#Text51 
-{
-   border-width: 0;
-   margin: 0;
-}
 #wb_MaterialIcon9
 {
    background-color: transparent;
@@ -3966,7 +3865,7 @@ body
 }
 #TextArea1
 {
-   border: 1px #CCCCCC solid;
+   border: 1px transparent solid;
    background-color: transparent;
    background-image: none;
    color :#4F4F4F;
@@ -3985,18 +3884,6 @@ body
    -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
    outline: 0;
-}
-.jQueryToolTip9
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
 }
 #Layer13Kachkashur .modal-content
 {
@@ -4209,11 +4096,6 @@ body
 {
    fill: #337AB7;
 }
-#Text52 
-{
-   border-width: 0;
-   margin: 0;
-}
 #TextArea2
 {
    border: 0px #CCCCCC solid;
@@ -4235,18 +4117,6 @@ body
    -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
    outline: 0;
-}
-.jQueryToolTip10
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
 }
 #Layer13Kozhyl .modal-content
 {
@@ -4459,11 +4329,6 @@ body
 {
    fill: #337AB7;
 }
-#Text53 
-{
-   border-width: 0;
-   margin: 0;
-}
 #TextArea3
 {
    border: 0px #CCCCCC solid;
@@ -4485,18 +4350,6 @@ body
    -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
    outline: 0;
-}
-.jQueryToolTip11
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
 }
 #Layer13Dzyakino .modal-content
 {
@@ -4709,11 +4562,6 @@ body
 {
    fill: #337AB7;
 }
-#Text54 
-{
-   border-width: 0;
-   margin: 0;
-}
 #TextArea4
 {
    border: 0px #CCCCCC solid;
@@ -4735,18 +4583,6 @@ body
    -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
    outline: 0;
-}
-.jQueryToolTip12
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
 }
 #Layer13Kuzma .modal-content
 {
@@ -4973,18 +4809,6 @@ body
 {
    fill: #337AB7;
 }
-.jQueryToolTip13
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
-}
 #Layer13Chura .modal-content
 {
    background-color: #FFFFFF;
@@ -5209,18 +5033,6 @@ body
 #wb_MaterialIcon14:hover g
 {
    fill: #337AB7;
-}
-.jQueryToolTip14
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
 }
 #Layer13Kochishevo .modal-content
 {
@@ -5447,18 +5259,6 @@ body
 {
    fill: #337AB7;
 }
-.jQueryToolTip15
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
-}
 #Layer13TatParzi .modal-content
 {
    background-color: #FFFFFF;
@@ -5684,18 +5484,6 @@ body
 {
    fill: #337AB7;
 }
-.jQueryToolTip16
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
-}
 #Layer13Pusoshur .modal-content
 {
    background-color: #FFFFFF;
@@ -5907,11 +5695,6 @@ body
 {
    fill: #337AB7;
 }
-#Text59 
-{
-   border-width: 0;
-   margin: 0;
-}
 #TextArea5
 {
    border: 0px #CCCCCC solid;
@@ -5933,18 +5716,6 @@ body
    -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
    outline: 0;
-}
-.jQueryToolTip17
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
 }
 #Layer13Otogurt .modal-content
 {
@@ -6171,18 +5942,6 @@ body
 {
    fill: #337AB7;
 }
-.jQueryToolTip18
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
-}
 #Layer13Oktyabrskiy .modal-content
 {
    background-color: #FFFFFF;
@@ -6394,11 +6153,6 @@ body
 {
    fill: #337AB7;
 }
-#Text61 
-{
-   border-width: 0;
-   margin: 0;
-}
 #TextArea6
 {
    border: 0px #CCCCCC solid;
@@ -6420,18 +6174,6 @@ body
    -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
    outline: 0;
-}
-.jQueryToolTip19
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
 }
 #Layer13Trubashur .modal-content
 {
@@ -6658,18 +6400,6 @@ body
 {
    fill: #337AB7;
 }
-.jQueryToolTip20
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
-}
 #Layer13Parzi .modal-content
 {
    background-color: #FFFFFF;
@@ -6847,45 +6577,6 @@ body
 {
    display: block;
 }
-#wb_MaterialIcon21
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-   text-align: center;
-   padding: 0px 0px 0px 0px;
-   line-height: 40px;
-   vertical-align: top;
-}
-#wb_MaterialIcon21:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-}
-#MaterialIcon21
-{
-   height: 40px;
-   width: 40px;
-   vertical-align: middle;
-}
-#MaterialIcon21 g
-{
-   fill: #265A88;
-   display: inline-block;
-   font-size: 40px;
-   vertical-align: middle;
-   width: 40px;
-}
-#wb_MaterialIcon21:hover g
-{
-   fill: #337AB7;
-}
-#Text63 
-{
-   border-width: 0;
-   margin: 0;
-}
 #TextArea7
 {
    border: 0px #CCCCCC solid;
@@ -6907,18 +6598,6 @@ body
    -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
    outline: 0;
-}
-.jQueryToolTip21
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
 }
 #Layer13ParzinskoeSPTU .modal-content
 {
@@ -7144,18 +6823,6 @@ body
 #wb_MaterialIcon22:hover g
 {
    fill: #337AB7;
-}
-.jQueryToolTip22
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
 }
 #Layer13Totosh .modal-content
 {
@@ -7395,18 +7062,6 @@ body
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
    outline: 0;
 }
-.jQueryToolTip23
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
-}
 #Layer13Ponino .modal-content
 {
    background-color: #FFFFFF;
@@ -7645,18 +7300,6 @@ body
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
    outline: 0;
 }
-.jQueryToolTip24
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
-}
 #Layer13Artenki .modal-content
 {
    background-color: #FFFFFF;
@@ -7881,18 +7524,6 @@ body
 #wb_MaterialIcon25:hover g
 {
    fill: #337AB7;
-}
-.jQueryToolTip25
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
 }
 #Layer13Zolotarevo .modal-content
 {
@@ -8119,18 +7750,6 @@ body
 {
    fill: #337AB7;
 }
-.jQueryToolTip26
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
-}
 #Layer13Kuregovo .modal-content
 {
    background-color: #FFFFFF;
@@ -8355,18 +7974,6 @@ body
 #wb_MaterialIcon27:hover g
 {
    fill: #337AB7;
-}
-.jQueryToolTip27
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
 }
 #Layer13Korotaevo .modal-content
 {
@@ -8593,18 +8200,6 @@ body
 {
    fill: #337AB7;
 }
-.jQueryToolTip28
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
-}
 #Layer13Shtanigurt .modal-content
 {
    background-color: #FFFFFF;
@@ -8829,18 +8424,6 @@ body
 #wb_MaterialIcon29:hover g
 {
    fill: #337AB7;
-}
-.jQueryToolTip29
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
 }
 #TextArea10
 {
@@ -10910,102 +10493,6 @@ body
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
    outline: 0;
 }
-.jQueryToolTip38
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
-}
-.jQueryToolTip39
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
-}
-.jQueryToolTip40
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
-}
-.jQueryToolTip41
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
-}
-.jQueryToolTip42
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
-}
-.jQueryToolTip43
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
-}
-.jQueryToolTip44
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
-}
-.jQueryToolTip45
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
-}
 #VidKartyHram
 {
    background-color: transparent;
@@ -11656,7 +11143,7 @@ body
 {
    position: relative;
    width: 1005px;
-   height: 570px;
+   height: 608px;
 }
 #DondydorInfo .close
 {
@@ -11815,18 +11302,6 @@ body
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
    outline: 0;
 }
-.jQueryToolTip46
-{
-   background-image: none;
-   background-color: #FFFFFF;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 5px;
-   padding: 5px 5px 5px 5px;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   box-shadow: none;
-   text-align: center;
-}
 #wb_Heading1
 {
    background-color: transparent;
@@ -11842,6 +11317,790 @@ body
    font-size: 32px;
    margin: 0;
    text-align: left;
+}
+#Image37
+{
+   border: 0px transparent solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#LayerNaYandex
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text76 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text76 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#LayerInfoSaitDondyDor
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text77 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text77 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer22
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text78 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text78 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer23
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text79 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text79 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer24
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text80 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text80 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer25
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text81 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text81 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer26
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text82 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text82 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer27
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text83 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text83 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer28
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text85 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text85 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer29
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text87 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text87 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer30
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text91 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text91 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer31
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text92 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text92 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer32
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text93 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text93 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer33
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text94 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text94 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer34
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text95 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text95 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer35
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text96 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text96 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer36
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text98 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text98 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer37
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text100 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text100 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer38
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text102 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text102 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#wb_MaterialIcon21
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   line-height: 40px;
+   vertical-align: top;
+}
+#wb_MaterialIcon21:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon21
+{
+   height: 40px;
+   width: 40px;
+   vertical-align: middle;
+}
+#MaterialIcon21 g
+{
+   fill: #265A88;
+   display: inline-block;
+   font-size: 40px;
+   vertical-align: middle;
+   width: 40px;
+}
+#wb_MaterialIcon21:hover g
+{
+   fill: #337AB7;
+}
+#Layer39
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text103 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text103 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer40
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text61 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text61 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer41
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text63 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text63 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer42
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text59 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text59 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer43
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text104 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text104 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer44
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text105 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text105 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer45
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text106 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text106 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer46
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text107 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text107 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer47
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text54 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text54 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer48
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text53 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text53 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer49
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text52 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text52 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer50
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text51 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text51 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer51
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text108 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text108 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer52
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text109 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text109 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer53
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text110 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text110 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer54
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text111 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text111 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer55
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text112 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text112 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer56
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text113 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text113 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer57
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text114 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text114 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Layer58
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text115 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text115 div
+{
+   text-align: left;
+   white-space: nowrap;
 }
 .loader {
  background: none repeat scroll 0 0 #FFFFFF;
