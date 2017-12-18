@@ -11145,7 +11145,7 @@ body
 {
    position: relative;
    width: 1005px;
-   height: 608px;
+   height: 602px;
 }
 #DondydorInfo .close
 {
@@ -11313,7 +11313,7 @@ body
    width: 100%;
    height: 100%;
 }
-#LayerNaYandex
+#LayerNaAvtobuse
 {
    background-color: transparent;
    background-image: none;
@@ -12124,6 +12124,59 @@ body
    top: 0;
    width: 100%;
    height: 100%;
+}
+#wb_MaterialIcon39
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   line-height: 40px;
+   vertical-align: top;
+}
+#wb_MaterialIcon39:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon39
+{
+   height: 40px;
+   width: 40px;
+   vertical-align: middle;
+}
+#MaterialIcon39 g
+{
+   fill: #265A88;
+   display: inline-block;
+   font-size: 40px;
+   vertical-align: middle;
+   width: 40px;
+}
+#wb_MaterialIcon39:hover g
+{
+   fill: #337AB7;
+}
+#LayerNaMashyne
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text116 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text116 div
+{
+   text-align: left;
+   white-space: nowrap;
 }
 .loader {
  background: none repeat scroll 0 0 #FFFFFF;
