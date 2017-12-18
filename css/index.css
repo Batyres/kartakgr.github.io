@@ -11071,7 +11071,7 @@ body
 }
 #DondydorInfo .modal-content
 {
-   background-color: transparent;
+   background-color: #FFFFFF;
    background-image: url(../images/pattern_gray.png);
    background-repeat: repeat;
    background-position: left top;
@@ -11120,23 +11120,6 @@ body
    position: relative;
    width: 1005px;
    margin: 30px auto;
-}
-#DondydorInfo.modal.fade .modal-dialog
-{
-   -webkit-transition: -webkit-transform .3s ease-out;
-   -o-transition: -o-transform .3s ease-out;
-   transition: transform .3s ease-out;
-   -webkit-transform: translate(0, -25%);
-   -ms-transform: translate(0px, -25%);
-   -o-transform: translate(0, -25%);
-   transform: translate(0px, -25%);
-}
-#DondydorInfo.modal.in .modal-dialog
-{
-   -webkit-transform: translate(0, 0);
-   -ms-transform: translate(0px, 0px);
-   -o-transform: translate(0, 0);
-   transform: translate(0px, 0px);
 }
 #DondydorInfo .modal-content
 {
