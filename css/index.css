@@ -11071,8 +11071,10 @@ body
 }
 #DondydorInfo .modal-content
 {
-   background-color: #FFFFFF;
-   background-image: none;
+   background-color: transparent;
+   background-image: url(../images/pattern_gray.png);
+   background-repeat: repeat;
+   background-position: left top;
    border: 1px #CCCCCC solid;
    border-radius: 6px;
    -moz-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
@@ -11118,6 +11120,23 @@ body
    position: relative;
    width: 1005px;
    margin: 30px auto;
+}
+#DondydorInfo.modal.fade .modal-dialog
+{
+   -webkit-transition: -webkit-transform .3s ease-out;
+   -o-transition: -o-transform .3s ease-out;
+   transition: transform .3s ease-out;
+   -webkit-transform: translate(0, -25%);
+   -ms-transform: translate(0px, -25%);
+   -o-transform: translate(0, -25%);
+   transform: translate(0px, -25%);
+}
+#DondydorInfo.modal.in .modal-dialog
+{
+   -webkit-transform: translate(0, 0);
+   -ms-transform: translate(0px, 0px);
+   -o-transform: translate(0, 0);
+   transform: translate(0px, 0px);
 }
 #DondydorInfo .modal-content
 {
@@ -11301,22 +11320,6 @@ body
    -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
    outline: 0;
-}
-#wb_Heading1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #FFFFFF solid;
-   padding: 0px 0px 0px 0px;
-}
-#Heading1
-{
-   color: #FFFFFF;
-   font-family: Tahoma;
-   font-weight: bold;
-   font-size: 32px;
-   margin: 0;
-   text-align: left;
 }
 #Image37
 {
@@ -12083,6 +12086,18 @@ body
    text-align: left;
    white-space: nowrap;
 }
+.jQueryToolTip1
+{
+   background-image: none;
+   background-color: #FFFFFF;
+   border: 0px #CCCCCC solid !important;
+   border-radius: 5px;
+   padding: 5px 5px 5px 5px;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+   text-align: center;
+}
 #Layer58
 {
    background-color: transparent;
@@ -12101,6 +12116,31 @@ body
 {
    text-align: left;
    white-space: nowrap;
+}
+#wb_Heading1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #FFFFFF solid;
+   padding: 0px 0px 0px 0px;
+}
+#Heading1
+{
+   color: #FFFFFF;
+   font-family: Tahoma;
+   font-weight: bold;
+   font-size: 32px;
+   margin: 0;
+   text-align: left;
+}
+#City
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
 }
 .loader {
  background: none repeat scroll 0 0 #FFFFFF;
