@@ -30,6 +30,34 @@ body
    overflow-x: hidden;
    overflow-y: hidden;
 }
+#wb_TextRodnik 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_TextRodnik div
+{
+   text-align: center;
+   white-space: nowrap;
+}
+#wb_TextIstochnik 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_TextIstochnik div
+{
+   text-align: center;
+   white-space: nowrap;
+}
 #MOKuregovo
 {
    border: 0px #000000 solid;
@@ -1142,11 +1170,6 @@ body
    width: 100%;
    height: 100%;
 }
-#Layer14
-{
-   background-color: transparent;
-   background-image: none;
-}
 #Image33
 {
    border: 0px #000000 solid;
@@ -1851,11 +1874,6 @@ body
 #MOIBOGATYRKA
 {
    border-width: 0;
-}
-#Layer19
-{
-   background-color: transparent;
-   background-image: none;
 }
 #Layer13Sevy .modal-content
 {
@@ -10493,11 +10511,6 @@ body
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
    outline: 0;
 }
-#VidKartyHram
-{
-   background-color: transparent;
-   background-image: none;
-}
 #wb_Text45 
 {
    background-color: transparent;
@@ -13608,6 +13621,366 @@ body
 {
    display: block;
 }
+#LayerRodniki
+{
+   background-color: transparent;
+   background-image: none;
+}
+#ImageRodnik
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Layer14
+{
+   background-color: transparent;
+   background-image: none;
+}
+#VidKartyHram
+{
+   background-color: transparent;
+   background-image: none;
+}
+#LayerMenuRodniki
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text118 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text118 div
+{
+   text-align: center;
+   white-space: nowrap;
+}
+#Layer63
+{
+   background-color: transparent;
+   background-image: none;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#Image48
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image52
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image53
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text120 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text120 div
+{
+   text-align: center;
+   white-space: nowrap;
+}
+.jQueryToolTip2
+{
+   background-image: none;
+   background-color: #FFFFFF;
+   border: 0px #CCCCCC solid !important;
+   border-radius: 5px;
+   padding: 5px 5px 5px 5px;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+   text-align: center;
+}
+#ImageRodnikIvashevskiy
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+.jQueryToolTip4
+{
+   background-image: none;
+   background-color: #FFFFFF;
+   border: 0px #CCCCCC solid !important;
+   border-radius: 5px;
+   padding: 5px 5px 5px 5px;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+   text-align: center;
+}
+#ImageRodnikOzegvaiskiy
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+.jQueryToolTip5
+{
+   background-image: none;
+   background-color: #FFFFFF;
+   border: 0px #CCCCCC solid !important;
+   border-radius: 5px;
+   padding: 5px 5px 5px 5px;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+   text-align: center;
+}
+#ImageRodnikPeganovskiy
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+.jQueryToolTip6
+{
+   background-image: none;
+   background-color: #FFFFFF;
+   border: 0px #CCCCCC solid !important;
+   border-radius: 5px;
+   padding: 5px 5px 5px 5px;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+   text-align: center;
+}
+#ImageRodnikSepychevskiy
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+.jQueryToolTip3
+{
+   background-image: none;
+   background-color: #FFFFFF;
+   border: 0px #CCCCCC solid !important;
+   border-radius: 5px;
+   padding: 5px 5px 5px 5px;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+   text-align: center;
+}
+#ImageRodnikSyaninskiy
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+.jQueryToolTip7
+{
+   background-image: none;
+   background-color: #FFFFFF;
+   border: 0px #CCCCCC solid !important;
+   border-radius: 5px;
+   padding: 5px 5px 5px 5px;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+   text-align: center;
+}
+#ImageRodnikTekovskiy
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+.jQueryToolTip8
+{
+   background-image: none;
+   background-color: #FFFFFF;
+   border: 0px #CCCCCC solid !important;
+   border-radius: 5px;
+   padding: 5px 5px 5px 5px;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+   text-align: center;
+}
+#ImageRodnikUdmKluchi
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+.jQueryToolTip9
+{
+   background-image: none;
+   background-color: #FFFFFF;
+   border: 0px #CCCCCC solid !important;
+   border-radius: 5px;
+   padding: 5px 5px 5px 5px;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+   text-align: center;
+}
+#ImageIstochnik
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#LayerIstochnik
+{
+   background-color: transparent;
+   background-image: none;
+}
+#ImageIstochnikShtanigurt
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#ImageRodnikPudvayskiy
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#ImageRodnikOvrazhnyi
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#ImageRodnikUrakovskiy
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+.jQueryToolTip10
+{
+   background-image: none;
+   background-color: #FFFFFF;
+   border: 0px #CCCCCC solid !important;
+   border-radius: 5px;
+   padding: 5px 5px 5px 5px;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+   text-align: center;
+}
+.jQueryToolTip11
+{
+   background-image: none;
+   background-color: #FFFFFF;
+   border: 0px #CCCCCC solid !important;
+   border-radius: 5px;
+   padding: 5px 5px 5px 5px;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+   text-align: center;
+}
+.jQueryToolTip12
+{
+   background-image: none;
+   background-color: #FFFFFF;
+   border: 0px #CCCCCC solid !important;
+   border-radius: 5px;
+   padding: 5px 5px 5px 5px;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+   text-align: center;
+}
+.jQueryToolTip13
+{
+   background-image: none;
+   background-color: #FFFFFF;
+   border: 0px #CCCCCC solid !important;
+   border-radius: 5px;
+   padding: 5px 5px 5px 5px;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+   text-align: center;
+}
+.jQueryToolTip14
+{
+   background-image: none;
+   background-color: #FFFFFF;
+   border: 0px #CCCCCC solid !important;
+   border-radius: 5px;
+   padding: 5px 5px 5px 5px;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+   text-align: center;
+}
 #wb_Heading2
 {
    background-color: transparent;
@@ -13644,6 +14017,27 @@ body
    font-size: 32px;
    margin: 0;
    text-align: left;
+}
+#wb_Heading3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #FFFFFF solid;
+   padding: 0px 0px 0px 0px;
+}
+#Heading3
+{
+   color: #808080;
+   font-family: Tahoma;
+   font-weight: bold;
+   font-size: 32px;
+   margin: 0;
+   text-align: left;
+}
+#Layer19
+{
+   background-color: transparent;
+   background-image: none;
 }
 .loader {
  background: none repeat scroll 0 0 #FFFFFF;
