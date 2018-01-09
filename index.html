@@ -961,6 +961,13 @@ $(document).ready(function()
       classes: { 'ui-tooltip' : 'jQueryToolTip14' }
    };
    $("#wb_ImageIstochnik").tooltip(jQueryToolTip14Options);
+   $("a[href*='#Layer61']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#Layer61').offset().top }, 600, 'linear');
+   });
+   $("a[data-rel='PhotoGallery46']").attr('rel', 'PhotoGallery46');
+   $("a[rel^='PhotoGallery46']").fancybox({});
 $(window).load(function() {
 
  $(".loader_inner").fadeOut();
@@ -1005,7 +1012,7 @@ $(window).load(function() {
 
 
 
-<div id="Layer12" style="position:absolute;text-align:left;visibility:hidden;left:1047px;top:130px;width:457px;height:150px;z-index:664;">
+<div id="Layer12" style="position:absolute;text-align:left;visibility:hidden;left:1047px;top:130px;width:457px;height:150px;z-index:678;">
 <div id="wb_Text35" style="position:absolute;left:34px;top:30px;width:148px;height:19px;z-index:266;">
 <span style="color:#808080;font-family:Tahoma;font-size:16px;line-height:19px;">МО &quot;Город Глазов&quot;</span></div>
 <div id="wb_Text37" style="position:absolute;left:34px;top:53px;width:148px;height:38px;z-index:267;">
@@ -1058,9 +1065,9 @@ $(window).load(function() {
 
 
 
-<div id="wb_Heading2" style="position:absolute;left:0px;top:1161px;width:68px;height:69px;z-index:696;">
+<div id="wb_Heading2" style="position:absolute;left:0px;top:1161px;width:68px;height:69px;z-index:710;">
 <h2 id="Heading2">Культурно-туристический парк «ДондыДор»</h2></div>
-<div id="wb_Heading1" style="position:absolute;left:0px;top:1161px;width:68px;height:69px;z-index:697;">
+<div id="wb_Heading1" style="position:absolute;left:0px;top:1161px;width:68px;height:69px;z-index:711;">
 <h1 id="Heading1">Краеведческая карта Глазовского района и города Глазова</h1></div>
 <!--preloader-->
 <div class="loader">
@@ -1068,13 +1075,13 @@ $(window).load(function() {
 </div>
 <!--/preloader-->
 </div>
-<div id="Fon" style="position:fixed;text-align:center;left:0;top:0;right:0;bottom:0;width:1019px;height:1030px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:699;">
+<div id="Fon" style="position:fixed;text-align:center;left:0;top:0;right:0;bottom:0;width:1019px;height:1030px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:713;">
 <div id="Fon_Container" style="width:1920px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_Fon2" style="position:absolute;left:53px;top:35px;width:906px;height:961px;z-index:0;">
 <img src="images/sverhu.jpg" id="Fon2" alt=""></div>
 </div>
 </div>
-<div id="Layer1" style="position:fixed;text-align:center;left:0;top:0;right:0;bottom:0;width:968px;height:940px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:700;">
+<div id="Layer1" style="position:fixed;text-align:center;left:0;top:0;right:0;bottom:0;width:968px;height:940px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:714;">
 <div id="Layer1_Container" style="width:1920px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_Image2" style="position:absolute;left:131px;top:29px;width:807px;height:540px;z-index:1;">
 <img src="images/666666666666.png" id="Image2" alt=""></div>
@@ -1084,7 +1091,7 @@ $(window).load(function() {
 <img src="images/666666666666c.png" id="Image1" alt=""></div>
 </div>
 </div>
-<div id="KartaSloy" style="position:fixed;text-align:center;left:0;top:0;right:0;bottom:0;width:950px;height:926px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:701;">
+<div id="KartaSloy" style="position:fixed;text-align:center;left:0;top:0;right:0;bottom:0;width:950px;height:926px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:715;">
 <div id="KartaSloy_Container" style="width:1920px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <!-- schetchikYandex -->
 <div id="Html1" style="position:absolute;left:424px;top:513px;width:143px;height:121px;z-index:97">
@@ -1379,7 +1386,7 @@ $(window).load(function() {
 <h2 id="Heading3">Краеведческая карта Глазовского района</h2></div>
 </div>
 </div>
-<div id="Layer4" style="position:absolute;text-align:left;left:0px;top:266px;width:325px;height:891px;z-index:702;">
+<div id="Layer4" style="position:absolute;text-align:left;left:0px;top:266px;width:325px;height:891px;z-index:716;">
 <div id="KGR" style="position:absolute;text-align:left;left:26px;top:167px;width:269px;height:88px;z-index:169;">
 <div id="wb_Image5" style="position:absolute;left:9px;top:12px;width:250px;height:36px;z-index:142;">
 <img src="images/OGR.png" id="Image5" alt=""></div>
@@ -1453,7 +1460,7 @@ $(window).load(function() {
 <a href="#" onclick="Animate('wb_Heading3', '', '-300', '', '', '', 1600, '');ShowObjectWithEffect('wb_TextRodnik', 0, 'dropdown', 500);ShowObjectWithEffect('wb_TextIstochnik', 0, 'dropdown', 500);ShowObjectWithEffect('LayerIstochnik', 0, 'fade', 500);ShowObjectWithEffect('LayerMenuRodniki', 0, 'dropright', 500);ShowObjectWithEffect('LayerRodniki', 0, 'fade', 500);ShowObjectWithEffect('LayerIstoriay', 0, 'fade', 500);ShowObjectWithEffect('LayerGorodishe', 0, 'fade', 500);ShowObjectWithEffect('Layer19', 0, 'dropup', 500);ShowObjectWithEffect('TextHram', 0, 'fade', 500);ShowObjectWithEffect('VidKartyHram', 0, 'dropright', 500);Animate('wb_Image31', '137', '', '', '', '', 250, '');ShowObjectWithEffect('wb_Image30', 1, 'blindhorizontal', 280);ShowObjectWithEffect('Layer3', 0, 'fade', 500);ShowObjectWithEffect('Layer14', 0, 'dropright', 500);ShowObjectWithEffect('LayerDondyDor', 1, 'dropup', 500);ShowObjectWithEffect('wb_City', 1, 'dropup', 500);return false;" onmousedown="ShowObjectWithEffect('LayerHram', 0, 'fade', 500);ShowObjectWithEffect('Layer17', 0, 'dropright', 500);ShowObjectWithEffect('wb_KartaText', 0, 'dropright', 500);ShowObjectWithEffect('wb_KartaMO', 0, 'dropright', 500);Animate('wb_Image31', '0', '', '', '', '', 200, '');ShowObjectWithEffect('wb_Image30', 0, 'blindhorizontal', 250);Animate('wb_Image6', '0', '', '', '', '', 250, '');ShowObjectWithEffect('wb_Image4', 0, 'blindhorizontal', 280);Animate('wb_Image10', '0', '', '', '', '', 250, '');ShowObjectWithEffect('wb_Image8', 0, 'blindhorizontal', 280);Animate('wb_Image13', '0', '', '', '', '', 250, '');ShowObjectWithEffect('wb_Image12', 0, 'blindhorizontal', 280);Animate('wb_Image19', '0', '', '', '', '', 250, '');ShowObjectWithEffect('wb_Image18', 0, 'blindhorizontal', 280);Animate('wb_Image16', '0', '', '', '', '', 250, '');ShowObjectWithEffect('wb_Image15', 0, 'blindhorizontal', 280);Animate('wb_Image22', '0', '', '', '', '', 250, '');ShowObjectWithEffect('wb_Image21', 0, 'blindhorizontal', 280);Animate('wb_Image25', '0', '', '', '', '', 250, '');ShowObjectWithEffect('wb_Image24', 0, 'blindhorizontal', 280);Animate('wb_Image28', '0', '', '', '', '', 250, '');ShowObjectWithEffect('wb_Image27', 0, 'blindhorizontal', 280);ShowObjectWithEffect('LayerDondyDor', 0, 'fade', 500);ShowObjectWithEffect('wb_City', 0, 'fade', 500);return false;"><img src="images/OGR3.png" id="Image31" alt=""></a></div>
 </div>
 </div>
-<div id="Layer17" style="position:fixed;text-align:center;visibility:hidden;left:0;top:0;right:0;bottom:0;width:860px;height:902px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:703;">
+<div id="Layer17" style="position:fixed;text-align:center;visibility:hidden;left:0;top:0;right:0;bottom:0;width:860px;height:902px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:717;">
 <div id="Layer17_Container" style="width:1920px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_Text4" style="position:absolute;left:347px;top:334px;width:155px;height:21px;z-index:237;cursor: pointer" onclick="Animate('wb_Text4', '', '', '', '', '50', 500, '');$('#Layer13Gulekovo').modal('show');return false;">
 <span style="color:#FFFFFF;font-family:Tahoma;font-size:17px;line-height:21px;"><strong>ГУЛЁКОВО</strong></span></div>
@@ -3435,7 +3442,7 @@ $(window).load(function() {
 </div>
 </div>
 </div>
-<div id="TextHram" style="position:fixed;text-align:center;visibility:hidden;left:0;top:0;right:0;bottom:0;width:860px;height:732px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:704;">
+<div id="TextHram" style="position:fixed;text-align:center;visibility:hidden;left:0;top:0;right:0;bottom:0;width:860px;height:732px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:718;">
 <div id="TextHram_Container" style="width:1920px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_Text84" style="position:absolute;left:353px;top:297px;width:72px;height:21px;z-index:477;cursor: pointer" onclick="Animate('wb_Text84', '', '', '', '', '50', 500, '');$('#LumHram').modal('show');return false;">
 <span style="color:#FFFFFF;font-family:Tahoma;font-size:17px;line-height:21px;"><strong>ЛЮМ</strong></span></div>
@@ -4080,7 +4087,7 @@ $(window).load(function() {
 </div>
 </div>
 </div>
-<div id="Layer14" style="position:absolute;text-align:left;visibility:hidden;left:1103px;top:433px;width:308px;height:391px;z-index:705;">
+<div id="Layer14" style="position:absolute;text-align:left;visibility:hidden;left:1103px;top:433px;width:308px;height:391px;z-index:719;">
 <div id="wb_Text1" style="position:absolute;left:152px;top:10px;width:117px;height:25px;text-align:center;z-index:595;">
 <span style="color:#808080;font-family:Tahoma;font-size:21px;line-height:25px;">Вид карты</span></div>
 <div id="wb_Text2" style="position:absolute;left:152px;top:77px;width:117px;height:69px;text-align:center;z-index:596;">
@@ -4104,7 +4111,7 @@ $(window).load(function() {
 <div id="wb_Text3" style="position:absolute;left:129px;top:234px;width:161px;height:46px;text-align:center;z-index:599;">
 <span style="color:#808080;font-family:Tahoma;font-size:19px;line-height:23px;">Муниципальные образования</span></div>
 </div>
-<div id="VidKartyHram" style="position:absolute;text-align:left;visibility:hidden;left:1103px;top:433px;width:308px;height:391px;z-index:706;">
+<div id="VidKartyHram" style="position:absolute;text-align:left;visibility:hidden;left:1103px;top:433px;width:308px;height:391px;z-index:720;">
 <div id="wb_Text45" style="position:absolute;left:152px;top:10px;width:117px;height:25px;text-align:center;z-index:606;">
 <span style="color:#808080;font-family:Tahoma;font-size:21px;line-height:25px;">Вид карты</span></div>
 <div id="wb_Text72" style="position:absolute;left:152px;top:77px;width:117px;height:69px;text-align:center;z-index:607;">
@@ -4128,7 +4135,7 @@ $(window).load(function() {
 <div id="wb_Text73" style="position:absolute;left:129px;top:234px;width:161px;height:46px;text-align:center;z-index:610;">
 <span style="color:#808080;font-family:Tahoma;font-size:19px;line-height:23px;">Муниципальные образования</span></div>
 </div>
-<div id="LayerMenuRodniki" style="position:absolute;text-align:left;visibility:hidden;left:1184px;top:419px;width:227px;height:379px;z-index:707;">
+<div id="LayerMenuRodniki" style="position:absolute;text-align:left;visibility:hidden;left:1184px;top:419px;width:227px;height:379px;z-index:721;">
 <div id="wb_Text118" style="position:absolute;left:69px;top:110px;width:117px;height:25px;text-align:center;z-index:614;">
 <span style="color:#808080;font-family:Tahoma;font-size:21px;line-height:25px;">Вид карты</span></div>
 <div id="Layer63" style="position:absolute;text-align:left;left:51px;top:291px;width:160px;height:88px;z-index:615;">
@@ -4145,6 +4152,59 @@ $(window).load(function() {
 <a href="#" onclick="ShowObjectWithEffect('wb_TextRodnik', 1, 'dropup', 500);SetImage('ImageRodnik','images/KnopkaVklRodniki.png');ShowObjectWithEffect('LayerRodniki', 1, 'fade', 500);SetImage('ImageIstochnik','images/KnopkaVyklIstochnik.png');ShowObjectWithEffect('LayerIstochnik', 0, 'fade', 500);ShowObjectWithEffect('wb_TextIstochnik', 0, 'dropdown', 500);return false;"><img src="images/KnopkaVyklRodniki.png" id="ImageRodnik" alt=""></a></div>
 <div id="wb_ImageIstochnik" style="position:absolute;left:129px;top:171px;width:61px;height:66px;z-index:618;">
 <a href="#" onclick="ShowObjectWithEffect('wb_TextRodnik', 0, 'dropup', 500);SetImage('ImageRodnik','images/KnopkaVyklRodniki.png');ShowObjectWithEffect('LayerIstochnik', 1, 'fade', 500);SetImage('ImageIstochnik','images/KnopkaVklIstochnik.png');ShowObjectWithEffect('LayerRodniki', 0, 'fade', 500);ShowObjectWithEffect('wb_TextIstochnik', 1, 'dropdown', 500);return false;"><img src="images/KnopkaVyklIstochnik.png" id="ImageIstochnik" alt=""></a></div>
+</div>
+<div id="Layer61" class="modal fade" role="dialog" style="text-align:left;">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-body">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<div id="Layer62" style="position:absolute;text-align:left;visibility:hidden;left:241px;top:19px;width:192px;height:36px;z-index:637;">
+<div id="wb_Text119" style="position:absolute;left:20px;top:10px;width:159px;height:19px;z-index:635;">
+<span style="color:#265A88;font-family:Tahoma;font-size:16px;line-height:19px;"><strong>На OpenStreetMap </strong></span></div>
+</div>
+<div id="wb_PhotoGallery46" style="position:absolute;left:35px;top:26px;width:82px;height:232px;z-index:638;">
+<div id="PhotoGallery46">
+   <div class="thumbnails">
+      <div class="thumbnail">
+         <a href="images/27_1.JPG" data-rel="PhotoGallery46"><img alt="" src="images/min_27_1.jpg"></a>
+      </div>
+      <div class="clearfix visible-col1"></div>
+      <div class="thumbnail">
+         <a href="images/27_2.JPG" data-rel="PhotoGallery46"><img alt="" src="images/min_27_2.jpg"></a>
+      </div>
+      <div class="clearfix visible-col1"></div>
+      <div class="thumbnail">
+         <a href="images/27_3.JPG" data-rel="PhotoGallery46"><img alt="" src="images/min_27_3.jpg"></a>
+      </div>
+      <div class="clearfix visible-col1"></div>
+   </div>
+</div></div>
+<div id="Layer64" style="position:absolute;text-align:left;visibility:hidden;left:172px;top:26px;width:192px;height:36px;z-index:639;">
+<div id="wb_Text123" style="position:absolute;left:16px;top:9px;width:159px;height:19px;z-index:636;">
+<span style="color:#265A88;font-family:Tahoma;font-size:16px;line-height:19px;"><strong>На яндекс карте</strong></span></div>
+</div>
+<div id="wb_MaterialIcon41" style="position:absolute;left:146px;top:25px;width:42px;height:40px;text-align:center;z-index:640;">
+<a href="https://yandex.ru/maps/?um=constructor%3A1a9e71c0aacac01421a54c55d27f82f8741c8bfe317ec7f6e48adbc6da9c3353&source=constructorLink" target="_blank" onmouseleave="ShowObjectWithEffect('Layer64', 0, 'fade', 500);return false;" onmousemove="ShowObjectWithEffect('Layer64', 1, 'fade', 500);return false;"><svg id="MaterialIcon41" height="40" width="40" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <g transform="scale(0.0781)">
+   <path transform="rotate(180) scale(-1,1) translate(0,-512)" d="M256 267c29 0 53 24 53 53s-24 53 -53 53s-53 -24 -53 -53s24 -53 53 -53zM256 469c83 0 149 -66 149 -149c0 -112 -149 -277 -149 -277s-149 165 -149 277c0 83 66 149 149 149z"/>
+   </g>
+</svg>
+</a></div>
+<div id="wb_OOPT" style="position:absolute;left:206px;top:70px;width:292px;height:235px;z-index:641;">
+<img src="images/OOPT.png" id="OOPT" alt=""></div>
+<div id="wb_Text121" style="position:absolute;left:200px;top:305px;width:284px;height:19px;text-align:center;z-index:642;">
+<span style="color:#808080;font-family:TimesNewRoman??????????;font-size:17px;line-height:19px;"><strong>Кадастровый отчёт по ООПТ</strong></span></div>
+<div id="wb_Text122" style="position:absolute;left:548px;top:305px;width:252px;height:19px;text-align:center;z-index:643;">
+<span style="color:#808080;font-family:TimesNewRoman??????????;font-size:17px;line-height:19px;"><strong>Описание источника</strong></span></div>
+<div id="wb_Image45" style="position:absolute;left:535px;top:70px;width:300px;height:235px;z-index:644;">
+<img src="images/OOPT2.png" id="Image45" alt=""></div>
+<div id="Layer65" style="position:absolute;text-align:left;left:206px;top:70px;width:268px;height:207px;z-index:645;cursor: pointer" onclick="window.open('http://glazovskaya-zbc.3dn.ru/4/PDF/mineralnyj_istochnik-shtanigurtskij.pdf');return false;">
+</div>
+<div id="Layer66" style="position:absolute;text-align:left;left:537px;top:72px;width:268px;height:207px;z-index:646;cursor: pointer" onclick="window.open('http://glazovskaya-zbc.3dn.ru/4/PDF/mineralnyj_istochnik_opisanie.pdf');return false;">
+</div>
+</div>
+</div>
+</div>
 </div>
 </body>
 </html>
