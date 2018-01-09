@@ -97,7 +97,13 @@ h1
    background-color: transparent;
    margin: 0px 0px 0px 0px;
    padding: 0px 0px 0px 0px;
+   -webkit-touch-callout: none;
+   -moz-user-select: none;
+   user-select: none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
    display: inline;
+   -ms-user-select: none;
 }
 h2
 {
@@ -110,6 +116,12 @@ h2
    background-color: transparent;
    margin: 0px 0px 0px 0px;
    padding: 0px 0px 0px 0px;
+   -webkit-touch-callout: none;
+   -moz-user-select: none;
+   user-select: none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
    display: inline;
 }
 h3
