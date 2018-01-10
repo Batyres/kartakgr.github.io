@@ -14002,7 +14002,7 @@ body
    background-color: transparent;
    background-image: none;
 }
-#Layer61 .modal-content
+#LayerInfoIstochnikShtanigurtskiy .modal-content
 {
    background-color: #FFFFFF;
    background-image: none;
@@ -14013,18 +14013,18 @@ body
    box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
    overflow: visible;
 }
-#Layer61.fade
+#LayerInfoIstochnikShtanigurtskiy.fade
 {
    opacity: 0;
    -webkit-transition: opacity .15s linear;
    -o-transition: opacity .15s linear;
    transition: opacity .15s linear;
 }
-#Layer61.fade.in
+#LayerInfoIstochnikShtanigurtskiy.fade.in
 {
    opacity: 1;
 }
-#Layer61.modal
+#LayerInfoIstochnikShtanigurtskiy.modal
 {
    position: fixed;
    top: 0px;
@@ -14037,48 +14037,48 @@ body
    -webkit-overflow-scrolling: touch;
    outline: 0;
 }
-#Layer61 .modal-open .modal
+#LayerInfoIstochnikShtanigurtskiy .modal-open .modal
 {
    overflow-x: hidden;
    overflow-y: auto;
 }
-#Layer61 .modal-open
+#LayerInfoIstochnikShtanigurtskiy .modal-open
 {
    overflow: hidden;
 }
-#Layer61 .modal-dialog
+#LayerInfoIstochnikShtanigurtskiy .modal-dialog
 {
    position: relative;
    width: 887px;
    margin: 30px auto;
 }
-#Layer61 .modal-content
+#LayerInfoIstochnikShtanigurtskiy .modal-content
 {
    position: relative;
    -webkit-background-clip: padding-box;
    background-clip: padding-box;
    outline: 0;
 }
-#Layer61 .modal-header
+#LayerInfoIstochnikShtanigurtskiy .modal-header
 {
    min-height: 16px;
    padding: 15px;
    border-bottom: 1px solid #CCCCCC;
 }
-#Layer61 .modal-title
+#LayerInfoIstochnikShtanigurtskiy .modal-title
 {
    color: #CCCCCC;
    font-size: 18px;
    font-weight: 500;
    margin: 0;
 }
-#Layer61 .modal-body
+#LayerInfoIstochnikShtanigurtskiy .modal-body
 {
    position: relative;
    width: 887px;
    height: 389px;
 }
-#Layer61 .close
+#LayerInfoIstochnikShtanigurtskiy .close
 {
    float: right;
    font-size: 21px;
@@ -14306,6 +14306,2526 @@ body
 {
    background-color: transparent;
    background-image: none;
+}
+#LayerInfoRodnikIvashevskiy .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #CCCCCC solid;
+   border-radius: 6px;
+   -moz-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   -webkit-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   overflow: visible;
+}
+#LayerInfoRodnikIvashevskiy.fade
+{
+   opacity: 0;
+   -webkit-transition: opacity .15s linear;
+   -o-transition: opacity .15s linear;
+   transition: opacity .15s linear;
+}
+#LayerInfoRodnikIvashevskiy.fade.in
+{
+   opacity: 1;
+}
+#LayerInfoRodnikIvashevskiy.modal
+{
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   z-index: 1050;
+   display: none;
+   overflow: hidden;
+   -webkit-overflow-scrolling: touch;
+   outline: 0;
+}
+#LayerInfoRodnikIvashevskiy .modal-open .modal
+{
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+#LayerInfoRodnikIvashevskiy .modal-open
+{
+   overflow: hidden;
+}
+#LayerInfoRodnikIvashevskiy .modal-dialog
+{
+   position: relative;
+   width: 1051px;
+   margin: 30px auto;
+}
+#LayerInfoRodnikIvashevskiy .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#LayerInfoRodnikIvashevskiy .modal-header
+{
+   min-height: 16px;
+   padding: 15px;
+   border-bottom: 1px solid #CCCCCC;
+}
+#LayerInfoRodnikIvashevskiy .modal-title
+{
+   color: #CCCCCC;
+   font-size: 18px;
+   font-weight: 500;
+   margin: 0;
+}
+#LayerInfoRodnikIvashevskiy .modal-body
+{
+   position: relative;
+   width: 1051px;
+   height: 436px;
+}
+#LayerInfoRodnikIvashevskiy .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #CCCCCC;
+   text-shadow: 0px 1px 0px #fff;
+   filter: alpha(opacity=50);
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 15px 15px 0px 0px;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   filter: alpha(opacity=0);
+   opacity: 0;
+   -webkit-transition: opacity .15s linear;
+   -o-transition: opacity .15s linear;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.in
+{
+   filter: alpha(opacity=50);
+   opacity: 0.5;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#Layer68
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text124 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text124 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#PhotoGallery47
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0;
+   width: 100%;
+   height: 100%;
+   table-layout: fixed;
+   display: table;
+}
+#PhotoGallery47 .thumbnails
+{
+   margin: 0;
+   font-size: 0;
+}
+#PhotoGallery47 .thumbnail
+{
+   position: relative;
+   min-height: 1px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   display: inline-block;
+   padding: 3px 3px 3px 3px;
+   width: 50%;
+   text-align: center;
+   vertical-align: middle;
+}
+#PhotoGallery47 .thumbnail img
+{
+   border: 0px #000000 solid;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 100%;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#PhotoGallery47 .clearfix:before,
+#PhotoGallery47 .clearfix:after,
+#PhotoGallery47 .thumbnails:before,
+#PhotoGallery47 .thumbnails:after
+{
+   display: table;
+   content: " ";
+}
+#PhotoGallery47 .clearfix:after,
+#PhotoGallery47 .thumbnails:after
+{
+   clear: both;
+}
+#PhotoGallery47 .visible-col2
+{
+   display: block;
+}
+#wb_MaterialIcon42
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   line-height: 40px;
+   vertical-align: top;
+}
+#wb_MaterialIcon42:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon42
+{
+   height: 40px;
+   width: 40px;
+   vertical-align: middle;
+}
+#MaterialIcon42 g
+{
+   fill: #265A88;
+   display: inline-block;
+   font-size: 40px;
+   vertical-align: middle;
+   width: 40px;
+}
+#wb_MaterialIcon42:hover g
+{
+   fill: #337AB7;
+}
+#TextArea27
+{
+   border: 0px #CCCCCC solid;
+   background-color: transparent;
+   background-image: none;
+   color :#4F4F4F;
+   font-family: Tahoma;
+   font-weight: normal;
+   font-size: 19px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   overflow: auto;
+   resize: none;
+}
+#TextArea27:focus
+{
+   border-color: #4F4F4F;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   outline: 0;
+}
+#LayerInfoRodnikOvrazhniy .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #CCCCCC solid;
+   border-radius: 6px;
+   -moz-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   -webkit-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   overflow: visible;
+}
+#LayerInfoRodnikOvrazhniy.fade
+{
+   opacity: 0;
+   -webkit-transition: opacity .15s linear;
+   -o-transition: opacity .15s linear;
+   transition: opacity .15s linear;
+}
+#LayerInfoRodnikOvrazhniy.fade.in
+{
+   opacity: 1;
+}
+#LayerInfoRodnikOvrazhniy.modal
+{
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   z-index: 1050;
+   display: none;
+   overflow: hidden;
+   -webkit-overflow-scrolling: touch;
+   outline: 0;
+}
+#LayerInfoRodnikOvrazhniy .modal-open .modal
+{
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+#LayerInfoRodnikOvrazhniy .modal-open
+{
+   overflow: hidden;
+}
+#LayerInfoRodnikOvrazhniy .modal-dialog
+{
+   position: relative;
+   width: 1051px;
+   margin: 30px auto;
+}
+#LayerInfoRodnikOvrazhniy .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#LayerInfoRodnikOvrazhniy .modal-header
+{
+   min-height: 16px;
+   padding: 15px;
+   border-bottom: 1px solid #CCCCCC;
+}
+#LayerInfoRodnikOvrazhniy .modal-title
+{
+   color: #CCCCCC;
+   font-size: 18px;
+   font-weight: 500;
+   margin: 0;
+}
+#LayerInfoRodnikOvrazhniy .modal-body
+{
+   position: relative;
+   width: 1051px;
+   height: 500px;
+}
+#LayerInfoRodnikOvrazhniy .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #CCCCCC;
+   text-shadow: 0px 1px 0px #fff;
+   filter: alpha(opacity=50);
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 15px 15px 0px 0px;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   filter: alpha(opacity=0);
+   opacity: 0;
+   -webkit-transition: opacity .15s linear;
+   -o-transition: opacity .15s linear;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.in
+{
+   filter: alpha(opacity=50);
+   opacity: 0.5;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#Layer69
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text125 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text125 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#wb_MaterialIcon43
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   line-height: 40px;
+   vertical-align: top;
+}
+#wb_MaterialIcon43:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon43
+{
+   height: 40px;
+   width: 40px;
+   vertical-align: middle;
+}
+#MaterialIcon43 g
+{
+   fill: #265A88;
+   display: inline-block;
+   font-size: 40px;
+   vertical-align: middle;
+   width: 40px;
+}
+#wb_MaterialIcon43:hover g
+{
+   fill: #337AB7;
+}
+#TextArea28
+{
+   border: 0px #CCCCCC solid;
+   background-color: transparent;
+   background-image: none;
+   color :#4F4F4F;
+   font-family: Tahoma;
+   font-weight: normal;
+   font-size: 19px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   overflow: auto;
+   resize: none;
+}
+#TextArea28:focus
+{
+   border-color: #4F4F4F;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   outline: 0;
+}
+#PhotoGallery48
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0;
+   width: 100%;
+   height: 100%;
+   table-layout: fixed;
+   display: table;
+}
+#PhotoGallery48 .thumbnails
+{
+   margin: 0;
+   font-size: 0;
+}
+#PhotoGallery48 .thumbnail
+{
+   position: relative;
+   min-height: 1px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   display: inline-block;
+   padding: 3px 3px 3px 3px;
+   width: 100%;
+   text-align: center;
+   vertical-align: middle;
+}
+#PhotoGallery48 .thumbnail img
+{
+   border: 0px #000000 solid;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 100%;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#PhotoGallery48 .clearfix:before,
+#PhotoGallery48 .clearfix:after,
+#PhotoGallery48 .thumbnails:before,
+#PhotoGallery48 .thumbnails:after
+{
+   display: table;
+   content: " ";
+}
+#PhotoGallery48 .clearfix:after,
+#PhotoGallery48 .thumbnails:after
+{
+   clear: both;
+}
+#PhotoGallery48 .visible-col1
+{
+   display: block;
+}
+#LayerInfoRodnikOzegvayskiy .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #CCCCCC solid;
+   border-radius: 6px;
+   -moz-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   -webkit-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   overflow: visible;
+}
+#LayerInfoRodnikOzegvayskiy.fade
+{
+   opacity: 0;
+   -webkit-transition: opacity .15s linear;
+   -o-transition: opacity .15s linear;
+   transition: opacity .15s linear;
+}
+#LayerInfoRodnikOzegvayskiy.fade.in
+{
+   opacity: 1;
+}
+#LayerInfoRodnikOzegvayskiy.modal
+{
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   z-index: 1050;
+   display: none;
+   overflow: hidden;
+   -webkit-overflow-scrolling: touch;
+   outline: 0;
+}
+#LayerInfoRodnikOzegvayskiy .modal-open .modal
+{
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+#LayerInfoRodnikOzegvayskiy .modal-open
+{
+   overflow: hidden;
+}
+#LayerInfoRodnikOzegvayskiy .modal-dialog
+{
+   position: relative;
+   width: 1025px;
+   margin: 30px auto;
+}
+#LayerInfoRodnikOzegvayskiy .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#LayerInfoRodnikOzegvayskiy .modal-header
+{
+   min-height: 16px;
+   padding: 15px;
+   border-bottom: 1px solid #CCCCCC;
+}
+#LayerInfoRodnikOzegvayskiy .modal-title
+{
+   color: #CCCCCC;
+   font-size: 18px;
+   font-weight: 500;
+   margin: 0;
+}
+#LayerInfoRodnikOzegvayskiy .modal-body
+{
+   position: relative;
+   width: 1025px;
+   height: 500px;
+}
+#LayerInfoRodnikOzegvayskiy .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #CCCCCC;
+   text-shadow: 0px 1px 0px #fff;
+   filter: alpha(opacity=50);
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 15px 15px 0px 0px;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   filter: alpha(opacity=0);
+   opacity: 0;
+   -webkit-transition: opacity .15s linear;
+   -o-transition: opacity .15s linear;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.in
+{
+   filter: alpha(opacity=50);
+   opacity: 0.5;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#Layer70
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text126 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text126 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#wb_MaterialIcon44
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   line-height: 40px;
+   vertical-align: top;
+}
+#wb_MaterialIcon44:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon44
+{
+   height: 40px;
+   width: 40px;
+   vertical-align: middle;
+}
+#MaterialIcon44 g
+{
+   fill: #265A88;
+   display: inline-block;
+   font-size: 40px;
+   vertical-align: middle;
+   width: 40px;
+}
+#wb_MaterialIcon44:hover g
+{
+   fill: #337AB7;
+}
+#TextArea29
+{
+   border: 0px #CCCCCC solid;
+   background-color: transparent;
+   background-image: none;
+   color :#4F4F4F;
+   font-family: Tahoma;
+   font-weight: normal;
+   font-size: 19px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   overflow: auto;
+   resize: none;
+}
+#TextArea29:focus
+{
+   border-color: #4F4F4F;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   outline: 0;
+}
+#PhotoGallery49
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0;
+   width: 100%;
+   height: 100%;
+   table-layout: fixed;
+   display: table;
+}
+#PhotoGallery49 .thumbnails
+{
+   margin: 0;
+   font-size: 0;
+}
+#PhotoGallery49 .thumbnail
+{
+   position: relative;
+   min-height: 1px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   display: inline-block;
+   padding: 3px 3px 3px 3px;
+   width: 100%;
+   text-align: center;
+   vertical-align: middle;
+}
+#PhotoGallery49 .thumbnail img
+{
+   border: 0px #000000 solid;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 100%;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#PhotoGallery49 .clearfix:before,
+#PhotoGallery49 .clearfix:after,
+#PhotoGallery49 .thumbnails:before,
+#PhotoGallery49 .thumbnails:after
+{
+   display: table;
+   content: " ";
+}
+#PhotoGallery49 .clearfix:after,
+#PhotoGallery49 .thumbnails:after
+{
+   clear: both;
+}
+#PhotoGallery49 .visible-col1
+{
+   display: block;
+}
+#LayerInfoRodnikPeganovskiy .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #CCCCCC solid;
+   border-radius: 6px;
+   -moz-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   -webkit-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   overflow: visible;
+}
+#LayerInfoRodnikPeganovskiy.fade
+{
+   opacity: 0;
+   -webkit-transition: opacity .15s linear;
+   -o-transition: opacity .15s linear;
+   transition: opacity .15s linear;
+}
+#LayerInfoRodnikPeganovskiy.fade.in
+{
+   opacity: 1;
+}
+#LayerInfoRodnikPeganovskiy.modal
+{
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   z-index: 1050;
+   display: none;
+   overflow: hidden;
+   -webkit-overflow-scrolling: touch;
+   outline: 0;
+}
+#LayerInfoRodnikPeganovskiy .modal-open .modal
+{
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+#LayerInfoRodnikPeganovskiy .modal-open
+{
+   overflow: hidden;
+}
+#LayerInfoRodnikPeganovskiy .modal-dialog
+{
+   position: relative;
+   width: 1025px;
+   margin: 30px auto;
+}
+#LayerInfoRodnikPeganovskiy .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#LayerInfoRodnikPeganovskiy .modal-header
+{
+   min-height: 16px;
+   padding: 15px;
+   border-bottom: 1px solid #CCCCCC;
+}
+#LayerInfoRodnikPeganovskiy .modal-title
+{
+   color: #CCCCCC;
+   font-size: 18px;
+   font-weight: 500;
+   margin: 0;
+}
+#LayerInfoRodnikPeganovskiy .modal-body
+{
+   position: relative;
+   width: 1025px;
+   height: 500px;
+}
+#LayerInfoRodnikPeganovskiy .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #CCCCCC;
+   text-shadow: 0px 1px 0px #fff;
+   filter: alpha(opacity=50);
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 15px 15px 0px 0px;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   filter: alpha(opacity=0);
+   opacity: 0;
+   -webkit-transition: opacity .15s linear;
+   -o-transition: opacity .15s linear;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.in
+{
+   filter: alpha(opacity=50);
+   opacity: 0.5;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#Layer71
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text127 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text127 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#wb_MaterialIcon45
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   line-height: 40px;
+   vertical-align: top;
+}
+#wb_MaterialIcon45:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon45
+{
+   height: 40px;
+   width: 40px;
+   vertical-align: middle;
+}
+#MaterialIcon45 g
+{
+   fill: #265A88;
+   display: inline-block;
+   font-size: 40px;
+   vertical-align: middle;
+   width: 40px;
+}
+#wb_MaterialIcon45:hover g
+{
+   fill: #337AB7;
+}
+#TextArea30
+{
+   border: 0px #CCCCCC solid;
+   background-color: transparent;
+   background-image: none;
+   color :#4F4F4F;
+   font-family: Tahoma;
+   font-weight: normal;
+   font-size: 19px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   overflow: auto;
+   resize: none;
+}
+#TextArea30:focus
+{
+   border-color: #4F4F4F;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   outline: 0;
+}
+#PhotoGallery50
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0;
+   width: 100%;
+   height: 100%;
+   table-layout: fixed;
+   display: table;
+}
+#PhotoGallery50 .thumbnails
+{
+   margin: 0;
+   font-size: 0;
+}
+#PhotoGallery50 .thumbnail
+{
+   position: relative;
+   min-height: 1px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   display: inline-block;
+   padding: 3px 3px 3px 3px;
+   width: 100%;
+   text-align: center;
+   vertical-align: middle;
+}
+#PhotoGallery50 .thumbnail img
+{
+   border: 0px #000000 solid;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 100%;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#PhotoGallery50 .clearfix:before,
+#PhotoGallery50 .clearfix:after,
+#PhotoGallery50 .thumbnails:before,
+#PhotoGallery50 .thumbnails:after
+{
+   display: table;
+   content: " ";
+}
+#PhotoGallery50 .clearfix:after,
+#PhotoGallery50 .thumbnails:after
+{
+   clear: both;
+}
+#PhotoGallery50 .visible-col1
+{
+   display: block;
+}
+#LayerInfoRodnikPudvayskiy .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #CCCCCC solid;
+   border-radius: 6px;
+   -moz-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   -webkit-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   overflow: visible;
+}
+#LayerInfoRodnikPudvayskiy.fade
+{
+   opacity: 0;
+   -webkit-transition: opacity .15s linear;
+   -o-transition: opacity .15s linear;
+   transition: opacity .15s linear;
+}
+#LayerInfoRodnikPudvayskiy.fade.in
+{
+   opacity: 1;
+}
+#LayerInfoRodnikPudvayskiy.modal
+{
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   z-index: 1050;
+   display: none;
+   overflow: hidden;
+   -webkit-overflow-scrolling: touch;
+   outline: 0;
+}
+#LayerInfoRodnikPudvayskiy .modal-open .modal
+{
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+#LayerInfoRodnikPudvayskiy .modal-open
+{
+   overflow: hidden;
+}
+#LayerInfoRodnikPudvayskiy .modal-dialog
+{
+   position: relative;
+   width: 1025px;
+   margin: 30px auto;
+}
+#LayerInfoRodnikPudvayskiy .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#LayerInfoRodnikPudvayskiy .modal-header
+{
+   min-height: 16px;
+   padding: 15px;
+   border-bottom: 1px solid #CCCCCC;
+}
+#LayerInfoRodnikPudvayskiy .modal-title
+{
+   color: #CCCCCC;
+   font-size: 18px;
+   font-weight: 500;
+   margin: 0;
+}
+#LayerInfoRodnikPudvayskiy .modal-body
+{
+   position: relative;
+   width: 1025px;
+   height: 509px;
+}
+#LayerInfoRodnikPudvayskiy .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #CCCCCC;
+   text-shadow: 0px 1px 0px #fff;
+   filter: alpha(opacity=50);
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 15px 15px 0px 0px;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   filter: alpha(opacity=0);
+   opacity: 0;
+   -webkit-transition: opacity .15s linear;
+   -o-transition: opacity .15s linear;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.in
+{
+   filter: alpha(opacity=50);
+   opacity: 0.5;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#Layer72
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text128 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text128 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#wb_MaterialIcon46
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   line-height: 40px;
+   vertical-align: top;
+}
+#wb_MaterialIcon46:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon46
+{
+   height: 40px;
+   width: 40px;
+   vertical-align: middle;
+}
+#MaterialIcon46 g
+{
+   fill: #265A88;
+   display: inline-block;
+   font-size: 40px;
+   vertical-align: middle;
+   width: 40px;
+}
+#wb_MaterialIcon46:hover g
+{
+   fill: #337AB7;
+}
+#TextArea31
+{
+   border: 0px #CCCCCC solid;
+   background-color: transparent;
+   background-image: none;
+   color :#4F4F4F;
+   font-family: Tahoma;
+   font-weight: normal;
+   font-size: 19px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   overflow: auto;
+   resize: none;
+}
+#TextArea31:focus
+{
+   border-color: #4F4F4F;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   outline: 0;
+}
+#PhotoGallery51
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0;
+   width: 100%;
+   height: 100%;
+   table-layout: fixed;
+   display: table;
+}
+#PhotoGallery51 .thumbnails
+{
+   margin: 0;
+   font-size: 0;
+}
+#PhotoGallery51 .thumbnail
+{
+   position: relative;
+   min-height: 1px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   display: inline-block;
+   padding: 3px 3px 3px 3px;
+   width: 100%;
+   text-align: center;
+   vertical-align: middle;
+}
+#PhotoGallery51 .thumbnail img
+{
+   border: 0px #000000 solid;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 100%;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#PhotoGallery51 .clearfix:before,
+#PhotoGallery51 .clearfix:after,
+#PhotoGallery51 .thumbnails:before,
+#PhotoGallery51 .thumbnails:after
+{
+   display: table;
+   content: " ";
+}
+#PhotoGallery51 .clearfix:after,
+#PhotoGallery51 .thumbnails:after
+{
+   clear: both;
+}
+#PhotoGallery51 .visible-col1
+{
+   display: block;
+}
+#LayerInfoRodnikSepychevskiy .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #CCCCCC solid;
+   border-radius: 6px;
+   -moz-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   -webkit-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   overflow: visible;
+}
+#LayerInfoRodnikSepychevskiy.fade
+{
+   opacity: 0;
+   -webkit-transition: opacity .15s linear;
+   -o-transition: opacity .15s linear;
+   transition: opacity .15s linear;
+}
+#LayerInfoRodnikSepychevskiy.fade.in
+{
+   opacity: 1;
+}
+#LayerInfoRodnikSepychevskiy.modal
+{
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   z-index: 1050;
+   display: none;
+   overflow: hidden;
+   -webkit-overflow-scrolling: touch;
+   outline: 0;
+}
+#LayerInfoRodnikSepychevskiy .modal-open .modal
+{
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+#LayerInfoRodnikSepychevskiy .modal-open
+{
+   overflow: hidden;
+}
+#LayerInfoRodnikSepychevskiy .modal-dialog
+{
+   position: relative;
+   width: 1025px;
+   margin: 30px auto;
+}
+#LayerInfoRodnikSepychevskiy .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#LayerInfoRodnikSepychevskiy .modal-header
+{
+   min-height: 16px;
+   padding: 15px;
+   border-bottom: 1px solid #CCCCCC;
+}
+#LayerInfoRodnikSepychevskiy .modal-title
+{
+   color: #CCCCCC;
+   font-size: 18px;
+   font-weight: 500;
+   margin: 0;
+}
+#LayerInfoRodnikSepychevskiy .modal-body
+{
+   position: relative;
+   width: 1025px;
+   height: 509px;
+}
+#LayerInfoRodnikSepychevskiy .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #CCCCCC;
+   text-shadow: 0px 1px 0px #fff;
+   filter: alpha(opacity=50);
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 15px 15px 0px 0px;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   filter: alpha(opacity=0);
+   opacity: 0;
+   -webkit-transition: opacity .15s linear;
+   -o-transition: opacity .15s linear;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.in
+{
+   filter: alpha(opacity=50);
+   opacity: 0.5;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#Layer73
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text129 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text129 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#wb_MaterialIcon47
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   line-height: 40px;
+   vertical-align: top;
+}
+#wb_MaterialIcon47:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon47
+{
+   height: 40px;
+   width: 40px;
+   vertical-align: middle;
+}
+#MaterialIcon47 g
+{
+   fill: #265A88;
+   display: inline-block;
+   font-size: 40px;
+   vertical-align: middle;
+   width: 40px;
+}
+#wb_MaterialIcon47:hover g
+{
+   fill: #337AB7;
+}
+#TextArea32
+{
+   border: 0px #CCCCCC solid;
+   background-color: transparent;
+   background-image: none;
+   color :#4F4F4F;
+   font-family: Tahoma;
+   font-weight: normal;
+   font-size: 19px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   overflow: auto;
+   resize: none;
+}
+#TextArea32:focus
+{
+   border-color: #4F4F4F;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   outline: 0;
+}
+#PhotoGallery52
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0;
+   width: 100%;
+   height: 100%;
+   table-layout: fixed;
+   display: table;
+}
+#PhotoGallery52 .thumbnails
+{
+   margin: 0;
+   font-size: 0;
+}
+#PhotoGallery52 .thumbnail
+{
+   position: relative;
+   min-height: 1px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   display: inline-block;
+   padding: 3px 3px 3px 3px;
+   width: 100%;
+   text-align: center;
+   vertical-align: middle;
+}
+#PhotoGallery52 .thumbnail img
+{
+   border: 0px #000000 solid;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 100%;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#PhotoGallery52 .clearfix:before,
+#PhotoGallery52 .clearfix:after,
+#PhotoGallery52 .thumbnails:before,
+#PhotoGallery52 .thumbnails:after
+{
+   display: table;
+   content: " ";
+}
+#PhotoGallery52 .clearfix:after,
+#PhotoGallery52 .thumbnails:after
+{
+   clear: both;
+}
+#PhotoGallery52 .visible-col1
+{
+   display: block;
+}
+#LayerInfoRodnikSaynenskiy .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #CCCCCC solid;
+   border-radius: 6px;
+   -moz-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   -webkit-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   overflow: visible;
+}
+#LayerInfoRodnikSaynenskiy.fade
+{
+   opacity: 0;
+   -webkit-transition: opacity .15s linear;
+   -o-transition: opacity .15s linear;
+   transition: opacity .15s linear;
+}
+#LayerInfoRodnikSaynenskiy.fade.in
+{
+   opacity: 1;
+}
+#LayerInfoRodnikSaynenskiy.modal
+{
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   z-index: 1050;
+   display: none;
+   overflow: hidden;
+   -webkit-overflow-scrolling: touch;
+   outline: 0;
+}
+#LayerInfoRodnikSaynenskiy .modal-open .modal
+{
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+#LayerInfoRodnikSaynenskiy .modal-open
+{
+   overflow: hidden;
+}
+#LayerInfoRodnikSaynenskiy .modal-dialog
+{
+   position: relative;
+   width: 1025px;
+   margin: 30px auto;
+}
+#LayerInfoRodnikSaynenskiy .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#LayerInfoRodnikSaynenskiy .modal-header
+{
+   min-height: 16px;
+   padding: 15px;
+   border-bottom: 1px solid #CCCCCC;
+}
+#LayerInfoRodnikSaynenskiy .modal-title
+{
+   color: #CCCCCC;
+   font-size: 18px;
+   font-weight: 500;
+   margin: 0;
+}
+#LayerInfoRodnikSaynenskiy .modal-body
+{
+   position: relative;
+   width: 1025px;
+   height: 509px;
+}
+#LayerInfoRodnikSaynenskiy .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #CCCCCC;
+   text-shadow: 0px 1px 0px #fff;
+   filter: alpha(opacity=50);
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 15px 15px 0px 0px;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   filter: alpha(opacity=0);
+   opacity: 0;
+   -webkit-transition: opacity .15s linear;
+   -o-transition: opacity .15s linear;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.in
+{
+   filter: alpha(opacity=50);
+   opacity: 0.5;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#Layer74
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text130 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text130 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#wb_MaterialIcon48
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   line-height: 40px;
+   vertical-align: top;
+}
+#wb_MaterialIcon48:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon48
+{
+   height: 40px;
+   width: 40px;
+   vertical-align: middle;
+}
+#MaterialIcon48 g
+{
+   fill: #265A88;
+   display: inline-block;
+   font-size: 40px;
+   vertical-align: middle;
+   width: 40px;
+}
+#wb_MaterialIcon48:hover g
+{
+   fill: #337AB7;
+}
+#TextArea33
+{
+   border: 0px #CCCCCC solid;
+   background-color: transparent;
+   background-image: none;
+   color :#4F4F4F;
+   font-family: Tahoma;
+   font-weight: normal;
+   font-size: 19px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   overflow: auto;
+   resize: none;
+}
+#TextArea33:focus
+{
+   border-color: #4F4F4F;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   outline: 0;
+}
+#PhotoGallery53
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0;
+   width: 100%;
+   height: 100%;
+   table-layout: fixed;
+   display: table;
+}
+#PhotoGallery53 .thumbnails
+{
+   margin: 0;
+   font-size: 0;
+}
+#PhotoGallery53 .thumbnail
+{
+   position: relative;
+   min-height: 1px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   display: inline-block;
+   padding: 3px 3px 3px 3px;
+   width: 100%;
+   text-align: center;
+   vertical-align: middle;
+}
+#PhotoGallery53 .thumbnail img
+{
+   border: 0px #000000 solid;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 100%;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#PhotoGallery53 .clearfix:before,
+#PhotoGallery53 .clearfix:after,
+#PhotoGallery53 .thumbnails:before,
+#PhotoGallery53 .thumbnails:after
+{
+   display: table;
+   content: " ";
+}
+#PhotoGallery53 .clearfix:after,
+#PhotoGallery53 .thumbnails:after
+{
+   clear: both;
+}
+#PhotoGallery53 .visible-col1
+{
+   display: block;
+}
+#LayerInfoRodnikTekovskiy .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #CCCCCC solid;
+   border-radius: 6px;
+   -moz-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   -webkit-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   overflow: visible;
+}
+#LayerInfoRodnikTekovskiy.fade
+{
+   opacity: 0;
+   -webkit-transition: opacity .15s linear;
+   -o-transition: opacity .15s linear;
+   transition: opacity .15s linear;
+}
+#LayerInfoRodnikTekovskiy.fade.in
+{
+   opacity: 1;
+}
+#LayerInfoRodnikTekovskiy.modal
+{
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   z-index: 1050;
+   display: none;
+   overflow: hidden;
+   -webkit-overflow-scrolling: touch;
+   outline: 0;
+}
+#LayerInfoRodnikTekovskiy .modal-open .modal
+{
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+#LayerInfoRodnikTekovskiy .modal-open
+{
+   overflow: hidden;
+}
+#LayerInfoRodnikTekovskiy .modal-dialog
+{
+   position: relative;
+   width: 1025px;
+   margin: 30px auto;
+}
+#LayerInfoRodnikTekovskiy .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#LayerInfoRodnikTekovskiy .modal-header
+{
+   min-height: 16px;
+   padding: 15px;
+   border-bottom: 1px solid #CCCCCC;
+}
+#LayerInfoRodnikTekovskiy .modal-title
+{
+   color: #CCCCCC;
+   font-size: 18px;
+   font-weight: 500;
+   margin: 0;
+}
+#LayerInfoRodnikTekovskiy .modal-body
+{
+   position: relative;
+   width: 1025px;
+   height: 509px;
+}
+#LayerInfoRodnikTekovskiy .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #CCCCCC;
+   text-shadow: 0px 1px 0px #fff;
+   filter: alpha(opacity=50);
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 15px 15px 0px 0px;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   filter: alpha(opacity=0);
+   opacity: 0;
+   -webkit-transition: opacity .15s linear;
+   -o-transition: opacity .15s linear;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.in
+{
+   filter: alpha(opacity=50);
+   opacity: 0.5;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#Layer75
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text131 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text131 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#wb_MaterialIcon49
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   line-height: 40px;
+   vertical-align: top;
+}
+#wb_MaterialIcon49:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon49
+{
+   height: 40px;
+   width: 40px;
+   vertical-align: middle;
+}
+#MaterialIcon49 g
+{
+   fill: #265A88;
+   display: inline-block;
+   font-size: 40px;
+   vertical-align: middle;
+   width: 40px;
+}
+#wb_MaterialIcon49:hover g
+{
+   fill: #337AB7;
+}
+#TextArea34
+{
+   border: 0px #CCCCCC solid;
+   background-color: transparent;
+   background-image: none;
+   color :#4F4F4F;
+   font-family: Tahoma;
+   font-weight: normal;
+   font-size: 19px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   overflow: auto;
+   resize: none;
+}
+#TextArea34:focus
+{
+   border-color: #4F4F4F;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   outline: 0;
+}
+#PhotoGallery54
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0;
+   width: 100%;
+   height: 100%;
+   table-layout: fixed;
+   display: table;
+}
+#PhotoGallery54 .thumbnails
+{
+   margin: 0;
+   font-size: 0;
+}
+#PhotoGallery54 .thumbnail
+{
+   position: relative;
+   min-height: 1px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   display: inline-block;
+   padding: 3px 3px 3px 3px;
+   width: 50%;
+   text-align: center;
+   vertical-align: middle;
+}
+#PhotoGallery54 .thumbnail img
+{
+   border: 0px #000000 solid;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 100%;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#PhotoGallery54 .clearfix:before,
+#PhotoGallery54 .clearfix:after,
+#PhotoGallery54 .thumbnails:before,
+#PhotoGallery54 .thumbnails:after
+{
+   display: table;
+   content: " ";
+}
+#PhotoGallery54 .clearfix:after,
+#PhotoGallery54 .thumbnails:after
+{
+   clear: both;
+}
+#PhotoGallery54 .visible-col2
+{
+   display: block;
+}
+#LayerInfoRodnikUdmKluch .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #CCCCCC solid;
+   border-radius: 6px;
+   -moz-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   -webkit-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   overflow: visible;
+}
+#LayerInfoRodnikUdmKluch.fade
+{
+   opacity: 0;
+   -webkit-transition: opacity .15s linear;
+   -o-transition: opacity .15s linear;
+   transition: opacity .15s linear;
+}
+#LayerInfoRodnikUdmKluch.fade.in
+{
+   opacity: 1;
+}
+#LayerInfoRodnikUdmKluch.modal
+{
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   z-index: 1050;
+   display: none;
+   overflow: hidden;
+   -webkit-overflow-scrolling: touch;
+   outline: 0;
+}
+#LayerInfoRodnikUdmKluch .modal-open .modal
+{
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+#LayerInfoRodnikUdmKluch .modal-open
+{
+   overflow: hidden;
+}
+#LayerInfoRodnikUdmKluch .modal-dialog
+{
+   position: relative;
+   width: 1025px;
+   margin: 30px auto;
+}
+#LayerInfoRodnikUdmKluch .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#LayerInfoRodnikUdmKluch .modal-header
+{
+   min-height: 16px;
+   padding: 15px;
+   border-bottom: 1px solid #CCCCCC;
+}
+#LayerInfoRodnikUdmKluch .modal-title
+{
+   color: #CCCCCC;
+   font-size: 18px;
+   font-weight: 500;
+   margin: 0;
+}
+#LayerInfoRodnikUdmKluch .modal-body
+{
+   position: relative;
+   width: 1025px;
+   height: 509px;
+}
+#LayerInfoRodnikUdmKluch .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #CCCCCC;
+   text-shadow: 0px 1px 0px #fff;
+   filter: alpha(opacity=50);
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 15px 15px 0px 0px;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   filter: alpha(opacity=0);
+   opacity: 0;
+   -webkit-transition: opacity .15s linear;
+   -o-transition: opacity .15s linear;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.in
+{
+   filter: alpha(opacity=50);
+   opacity: 0.5;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#Layer76
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text132 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text132 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#wb_MaterialIcon50
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   line-height: 40px;
+   vertical-align: top;
+}
+#wb_MaterialIcon50:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon50
+{
+   height: 40px;
+   width: 40px;
+   vertical-align: middle;
+}
+#MaterialIcon50 g
+{
+   fill: #265A88;
+   display: inline-block;
+   font-size: 40px;
+   vertical-align: middle;
+   width: 40px;
+}
+#wb_MaterialIcon50:hover g
+{
+   fill: #337AB7;
+}
+#TextArea35
+{
+   border: 0px #CCCCCC solid;
+   background-color: transparent;
+   background-image: none;
+   color :#4F4F4F;
+   font-family: Tahoma;
+   font-weight: normal;
+   font-size: 19px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   overflow: auto;
+   resize: none;
+}
+#TextArea35:focus
+{
+   border-color: #4F4F4F;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   outline: 0;
+}
+#PhotoGallery55
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0;
+   width: 100%;
+   height: 100%;
+   table-layout: fixed;
+   display: table;
+}
+#PhotoGallery55 .thumbnails
+{
+   margin: 0;
+   font-size: 0;
+}
+#PhotoGallery55 .thumbnail
+{
+   position: relative;
+   min-height: 1px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   display: inline-block;
+   padding: 3px 3px 3px 3px;
+   width: 33.33333333%;
+   text-align: center;
+   vertical-align: middle;
+}
+#PhotoGallery55 .thumbnail img
+{
+   border: 0px #000000 solid;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 100%;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#PhotoGallery55 .clearfix:before,
+#PhotoGallery55 .clearfix:after,
+#PhotoGallery55 .thumbnails:before,
+#PhotoGallery55 .thumbnails:after
+{
+   display: table;
+   content: " ";
+}
+#PhotoGallery55 .clearfix:after,
+#PhotoGallery55 .thumbnails:after
+{
+   clear: both;
+}
+#PhotoGallery55 .visible-col3
+{
+   display: block;
+}
+#LayerInfoRodnikUrakovskiy .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #CCCCCC solid;
+   border-radius: 6px;
+   -moz-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   -webkit-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   overflow: visible;
+}
+#LayerInfoRodnikUrakovskiy.fade
+{
+   opacity: 0;
+   -webkit-transition: opacity .15s linear;
+   -o-transition: opacity .15s linear;
+   transition: opacity .15s linear;
+}
+#LayerInfoRodnikUrakovskiy.fade.in
+{
+   opacity: 1;
+}
+#LayerInfoRodnikUrakovskiy.modal
+{
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   z-index: 1050;
+   display: none;
+   overflow: hidden;
+   -webkit-overflow-scrolling: touch;
+   outline: 0;
+}
+#LayerInfoRodnikUrakovskiy .modal-open .modal
+{
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+#LayerInfoRodnikUrakovskiy .modal-open
+{
+   overflow: hidden;
+}
+#LayerInfoRodnikUrakovskiy .modal-dialog
+{
+   position: relative;
+   width: 1025px;
+   margin: 30px auto;
+}
+#LayerInfoRodnikUrakovskiy .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#LayerInfoRodnikUrakovskiy .modal-header
+{
+   min-height: 16px;
+   padding: 15px;
+   border-bottom: 1px solid #CCCCCC;
+}
+#LayerInfoRodnikUrakovskiy .modal-title
+{
+   color: #CCCCCC;
+   font-size: 18px;
+   font-weight: 500;
+   margin: 0;
+}
+#LayerInfoRodnikUrakovskiy .modal-body
+{
+   position: relative;
+   width: 1025px;
+   height: 509px;
+}
+#LayerInfoRodnikUrakovskiy .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #CCCCCC;
+   text-shadow: 0px 1px 0px #fff;
+   filter: alpha(opacity=50);
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 15px 15px 0px 0px;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   filter: alpha(opacity=0);
+   opacity: 0;
+   -webkit-transition: opacity .15s linear;
+   -o-transition: opacity .15s linear;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.in
+{
+   filter: alpha(opacity=50);
+   opacity: 0.5;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#Layer77
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text133 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text133 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#wb_MaterialIcon51
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   line-height: 40px;
+   vertical-align: top;
+}
+#wb_MaterialIcon51:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon51
+{
+   height: 40px;
+   width: 40px;
+   vertical-align: middle;
+}
+#MaterialIcon51 g
+{
+   fill: #265A88;
+   display: inline-block;
+   font-size: 40px;
+   vertical-align: middle;
+   width: 40px;
+}
+#wb_MaterialIcon51:hover g
+{
+   fill: #337AB7;
+}
+#TextArea36
+{
+   border: 0px #CCCCCC solid;
+   background-color: transparent;
+   background-image: none;
+   color :#4F4F4F;
+   font-family: Tahoma;
+   font-weight: normal;
+   font-size: 19px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   overflow: auto;
+   resize: none;
+}
+#TextArea36:focus
+{
+   border-color: #4F4F4F;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   outline: 0;
+}
+#PhotoGallery56
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0;
+   width: 100%;
+   height: 100%;
+   table-layout: fixed;
+   display: table;
+}
+#PhotoGallery56 .thumbnails
+{
+   margin: 0;
+   font-size: 0;
+}
+#PhotoGallery56 .thumbnail
+{
+   position: relative;
+   min-height: 1px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   display: inline-block;
+   padding: 3px 3px 3px 3px;
+   width: 50%;
+   text-align: center;
+   vertical-align: middle;
+}
+#PhotoGallery56 .thumbnail img
+{
+   border: 0px #000000 solid;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 100%;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#PhotoGallery56 .clearfix:before,
+#PhotoGallery56 .clearfix:after,
+#PhotoGallery56 .thumbnails:before,
+#PhotoGallery56 .thumbnails:after
+{
+   display: table;
+   content: " ";
+}
+#PhotoGallery56 .clearfix:after,
+#PhotoGallery56 .thumbnails:after
+{
+   clear: both;
+}
+#PhotoGallery56 .visible-col2
+{
+   display: block;
 }
 #wb_Heading2
 {
