@@ -1827,49 +1827,123 @@ body
    text-align: left;
    white-space: nowrap;
 }
+#KMOPONINO
+{
+   width: 16px;
+   height: 16px;
+   background-color: #FF9A8F;
+   background-image: none;
+   border: 0px #245580 solid;
+   border-radius: 3px;
+}
+#KMOPONINO_text
+{
+   position: absolute;
+   left: 2px;
+   top: 2px;
+   width: 11px;
+   height: 11px;
+   overflow: hidden;
+   text-align: center;
+}
 #KMOBOGATYRKA
 {
-   border-width: 0;
+   width: 16px;
+   height: 16px;
+   background-color: #B2CD90;
+   background-image: none;
+   border: 0px #245580 solid;
+   border-radius: 3px;
 }
 #Shape16
 {
-   border-width: 0;
+   width: 16px;
+   height: 16px;
+   background-color: #DEB77E;
+   background-image: none;
+   border: 0px #245580 solid;
+   border-radius: 3px;
 }
 #Shape17
 {
-   border-width: 0;
+   width: 16px;
+   height: 16px;
+   background-color: #848CBA;
+   background-image: none;
+   border: 0px #245580 solid;
+   border-radius: 3px;
 }
 #Shape18
 {
-   border-width: 0;
+   width: 16px;
+   height: 16px;
+   background-color: #FF9CC9;
+   background-image: none;
+   border: 0px #245580 solid;
+   border-radius: 3px;
 }
 #Shape19
 {
-   border-width: 0;
+   width: 16px;
+   height: 16px;
+   background-color: #FFB3AC;
+   background-image: none;
+   border: 0px #245580 solid;
+   border-radius: 3px;
 }
 #Shape20
 {
-   border-width: 0;
+   width: 16px;
+   height: 16px;
+   background-color: #F6CDA0;
+   background-image: none;
+   border: 0px #245580 solid;
+   border-radius: 3px;
 }
 #Shape21
 {
-   border-width: 0;
+   width: 16px;
+   height: 16px;
+   background-color: #90D0C0;
+   background-image: none;
+   border: 0px #245580 solid;
+   border-radius: 3px;
 }
 #Shape22
 {
-   border-width: 0;
+   width: 16px;
+   height: 16px;
+   background-color: #FF7174;
+   background-image: none;
+   border: 0px #245580 solid;
+   border-radius: 3px;
 }
 #Shape23
 {
-   border-width: 0;
+   width: 16px;
+   height: 16px;
+   background-color: #FFB480;
+   background-image: none;
+   border: 0px #245580 solid;
+   border-radius: 3px;
 }
 #Shape24
 {
-   border-width: 0;
+   width: 16px;
+   height: 16px;
+   background-color: #BA94B9;
+   background-image: none;
+   border: 0px #245580 solid;
+   border-radius: 3px;
 }
 #Shape25
 {
-   border-width: 0;
+   width: 16px;
+   height: 16px;
+   background-color: #BACF84;
+   background-image: none;
+   border: 0px #245580 solid;
+   border-radius: 3px;
 }
 #MOIBOGATYRKA
 {
