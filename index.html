@@ -1044,6 +1044,13 @@ $(window).load(function() {
  $(".loader").delay(400).fadeOut("slow");
 
 });
+   $("a[href*='#LayerZHDDoroga']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#LayerZHDDoroga').offset().top }, 600, 'linear');
+   });
+   $("a[data-rel='PhotoGallery57']").attr('rel', 'PhotoGallery57');
+   $("a[rel^='PhotoGallery57']").fancybox({});
    $('img[data-src]').lazyload();
 });
 </script>
@@ -1093,7 +1100,7 @@ $(window).load(function() {
 
 
 
-<div id="Layer12" style="position:absolute;text-align:left;visibility:hidden;left:1047px;top:130px;width:457px;height:150px;z-index:738;">
+<div id="Layer12" style="position:absolute;text-align:left;visibility:hidden;left:1047px;top:130px;width:457px;height:150px;z-index:740;">
 <div id="wb_Text35" style="position:absolute;left:34px;top:30px;width:148px;height:19px;z-index:266;">
 <span style="color:#808080;font-family:Tahoma;font-size:16px;line-height:19px;">МО &quot;Город Глазов&quot;</span></div>
 <div id="wb_Text37" style="position:absolute;left:34px;top:53px;width:148px;height:38px;z-index:267;">
@@ -1146,9 +1153,9 @@ $(window).load(function() {
 
 
 
-<div id="wb_Heading2" style="position:absolute;left:0px;top:1161px;width:68px;height:69px;z-index:770;">
+<div id="wb_Heading2" style="position:absolute;left:0px;top:1161px;width:68px;height:69px;z-index:772;">
 <h2 id="Heading2">Культурно-туристический парк «ДондыДор»</h2></div>
-<div id="wb_Heading1" style="position:absolute;left:0px;top:1161px;width:68px;height:69px;z-index:771;">
+<div id="wb_Heading1" style="position:absolute;left:0px;top:1161px;width:68px;height:69px;z-index:773;">
 <h1 id="Heading1">Краеведческая карта Глазовского района и города Глазова</h1></div>
 <!--preloader-->
 <div class="loader">
@@ -1156,13 +1163,13 @@ $(window).load(function() {
 </div>
 <!--/preloader-->
 </div>
-<div id="Fon" style="position:fixed;text-align:center;left:0;top:0;right:0;bottom:0;width:1019px;height:1030px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:773;">
+<div id="Fon" style="position:fixed;text-align:center;left:0;top:0;right:0;bottom:0;width:1019px;height:1030px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:775;">
 <div id="Fon_Container" style="width:1920px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_Fon2" style="position:absolute;left:53px;top:35px;width:906px;height:961px;z-index:0;">
 <img src="images/sverhu.jpg" id="Fon2" alt=""></div>
 </div>
 </div>
-<div id="Layer1" style="position:fixed;text-align:center;left:0;top:0;right:0;bottom:0;width:968px;height:940px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:774;">
+<div id="Layer1" style="position:fixed;text-align:center;left:0;top:0;right:0;bottom:0;width:968px;height:940px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:776;">
 <div id="Layer1_Container" style="width:1920px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_Image2" style="position:absolute;left:131px;top:29px;width:807px;height:540px;z-index:1;">
 <img src="images/666666666666.png" id="Image2" alt=""></div>
@@ -1172,7 +1179,7 @@ $(window).load(function() {
 <img src="images/666666666666c.png" id="Image1" alt=""></div>
 </div>
 </div>
-<div id="KartaSloy" style="position:fixed;text-align:center;left:0;top:0;right:0;bottom:0;width:950px;height:926px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:775;">
+<div id="KartaSloy" style="position:fixed;text-align:center;left:0;top:0;right:0;bottom:0;width:950px;height:926px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:777;">
 <div id="KartaSloy_Container" style="width:1920px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <!-- schetchikYandex -->
 <div id="Html1" style="position:absolute;left:424px;top:513px;width:143px;height:121px;z-index:97">
@@ -1366,7 +1373,7 @@ $(window).load(function() {
 <div id="wb_ImageSepychkar" style="position:absolute;left:312px;top:462px;width:36px;height:25px;visibility:hidden;z-index:62;">
 <img src="images/IconkaGorodishe.png" id="ImageSepychkar" alt=""></div>
 </div>
-<div id="LayerIstoriay" style="position:absolute;text-align:center;visibility:hidden;left:241px;top:322px;width:591px;height:431px;z-index:118;">
+<div id="LayerIstoriay" style="position:absolute;text-align:center;left:241px;top:322px;width:591px;height:431px;z-index:118;">
 <div id="LayerIstoriay_Container" style="width:591px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="LayerZHD" style="position:absolute;text-align:left;left:35px;top:229px;width:419px;height:120px;z-index:69;">
 <div id="wb_Imagezhd" style="position:absolute;left:2px;top:8px;width:403px;height:108px;z-index:63;">
@@ -1386,10 +1393,10 @@ $(window).load(function() {
 <img src="images/ZHDpolosa2.png" id="Image51" alt=""></div>
 <div id="wb_Image50" style="position:absolute;left:19px;top:19px;width:161px;height:6px;z-index:66;">
 <img src="images/TraktPolosa2.png" id="Image50" alt=""></div>
-<div id="wb_Text74" style="position:absolute;left:19px;top:40px;width:164px;height:21px;z-index:67;" onclick="$('#LayerInfoRodnikSepychevskiy').modal('show');return false;">
-<span style="color:#696969;font-family:Tahoma;font-size:17px;line-height:21px;"><strong><a href="#" class="style1" onclick="Animate('', '', '', '', '', '', 500, '');return false;">Железная дорога</a></strong></span></div>
+<div id="wb_Text74" style="position:absolute;left:19px;top:40px;width:164px;height:21px;z-index:67;">
+<span style="color:#696969;font-family:Tahoma;font-size:17px;line-height:21px;"><strong><a href="#" class="style1" onclick="$('#LayerZHDDoroga').modal('show');return false;">Железная дорога</a></strong></span></div>
 <div id="wb_Text75" style="position:absolute;left:18px;top:9px;width:165px;height:21px;z-index:68;">
-<span style="color:#696969;font-family:Tahoma;font-size:17px;line-height:21px;"><strong><a href="#" class="style1" onclick="$('#LayerInfoSibTrakt').modal('show');return false;" onmousemove="ShowObjectWithEffect('LayerTRAKT', 1, 'scale', 500);return false;">Сибирский тракт</a></strong></span></div>
+<span style="color:#696969;font-family:Tahoma;font-size:17px;line-height:21px;"><strong><a href="#" class="style1" onclick="$('#LayerInfoSibTrakt').modal('show');return false;">Сибирский тракт</a></strong></span></div>
 </div>
 </div>
 </div>
@@ -1566,7 +1573,7 @@ $(window).load(function() {
 <h2 id="Heading3">Краеведческая карта Глазовского района</h2></div>
 </div>
 </div>
-<div id="Layer4" style="position:absolute;text-align:left;left:0px;top:266px;width:325px;height:891px;z-index:776;">
+<div id="Layer4" style="position:absolute;text-align:left;left:0px;top:266px;width:325px;height:891px;z-index:778;">
 <div id="KGR" style="position:absolute;text-align:left;left:26px;top:167px;width:269px;height:88px;z-index:169;">
 <div id="wb_Image5" style="position:absolute;left:9px;top:12px;width:250px;height:36px;z-index:142;">
 <img src="images/OGR.png" id="Image5" alt=""></div>
@@ -1640,7 +1647,7 @@ $(window).load(function() {
 <a href="#" onclick="Animate('wb_Heading3', '', '-300', '', '', '', 1600, '');ShowObjectWithEffect('wb_TextRodnik', 0, 'dropdown', 500);ShowObjectWithEffect('wb_TextIstochnik', 0, 'dropdown', 500);ShowObjectWithEffect('LayerIstochnik', 0, 'fade', 500);ShowObjectWithEffect('LayerMenuRodniki', 0, 'dropright', 500);ShowObjectWithEffect('LayerRodniki', 0, 'fade', 500);ShowObjectWithEffect('LayerIstoriay', 0, 'fade', 500);ShowObjectWithEffect('LayerGorodishe', 0, 'fade', 500);ShowObjectWithEffect('Layer19', 0, 'dropup', 500);ShowObjectWithEffect('TextHram', 0, 'fade', 500);ShowObjectWithEffect('VidKartyHram', 0, 'dropright', 500);Animate('wb_Image31', '137', '', '', '', '', 250, '');ShowObjectWithEffect('wb_Image30', 1, 'blindhorizontal', 280);ShowObjectWithEffect('Layer3', 0, 'fade', 500);ShowObjectWithEffect('Layer14', 0, 'dropright', 500);ShowObjectWithEffect('LayerDondyDor', 1, 'dropup', 500);ShowObjectWithEffect('wb_City', 1, 'dropup', 500);return false;" onmousedown="ShowObjectWithEffect('LayerHram', 0, 'fade', 500);ShowObjectWithEffect('Layer17', 0, 'dropright', 500);ShowObjectWithEffect('wb_KartaText', 0, 'dropright', 500);ShowObjectWithEffect('wb_KartaMO', 0, 'dropright', 500);Animate('wb_Image31', '0', '', '', '', '', 200, '');ShowObjectWithEffect('wb_Image30', 0, 'blindhorizontal', 250);Animate('wb_Image6', '0', '', '', '', '', 250, '');ShowObjectWithEffect('wb_Image4', 0, 'blindhorizontal', 280);Animate('wb_Image10', '0', '', '', '', '', 250, '');ShowObjectWithEffect('wb_Image8', 0, 'blindhorizontal', 280);Animate('wb_Image13', '0', '', '', '', '', 250, '');ShowObjectWithEffect('wb_Image12', 0, 'blindhorizontal', 280);Animate('wb_Image19', '0', '', '', '', '', 250, '');ShowObjectWithEffect('wb_Image18', 0, 'blindhorizontal', 280);Animate('wb_Image16', '0', '', '', '', '', 250, '');ShowObjectWithEffect('wb_Image15', 0, 'blindhorizontal', 280);Animate('wb_Image22', '0', '', '', '', '', 250, '');ShowObjectWithEffect('wb_Image21', 0, 'blindhorizontal', 280);Animate('wb_Image25', '0', '', '', '', '', 250, '');ShowObjectWithEffect('wb_Image24', 0, 'blindhorizontal', 280);Animate('wb_Image28', '0', '', '', '', '', 250, '');ShowObjectWithEffect('wb_Image27', 0, 'blindhorizontal', 280);ShowObjectWithEffect('LayerDondyDor', 0, 'fade', 500);ShowObjectWithEffect('wb_City', 0, 'fade', 500);return false;"><img src="images/OGR3.png" id="Image31" alt=""></a></div>
 </div>
 </div>
-<div id="Layer17" style="position:fixed;text-align:center;visibility:hidden;left:0;top:0;right:0;bottom:0;width:860px;height:902px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:777;">
+<div id="Layer17" style="position:fixed;text-align:center;visibility:hidden;left:0;top:0;right:0;bottom:0;width:860px;height:902px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:779;">
 <div id="Layer17_Container" style="width:1920px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_Text4" style="position:absolute;left:347px;top:334px;width:155px;height:21px;z-index:237;cursor: pointer" onclick="Animate('wb_Text4', '', '', '', '', '50', 500, '');$('#Layer13Gulekovo').modal('show');return false;">
 <span style="color:#FFFFFF;font-family:Tahoma;font-size:17px;line-height:21px;"><strong>ГУЛЁКОВО</strong></span></div>
@@ -3622,7 +3629,7 @@ $(window).load(function() {
 </div>
 </div>
 </div>
-<div id="TextHram" style="position:fixed;text-align:center;visibility:hidden;left:0;top:0;right:0;bottom:0;width:860px;height:732px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:778;">
+<div id="TextHram" style="position:fixed;text-align:center;visibility:hidden;left:0;top:0;right:0;bottom:0;width:860px;height:732px;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto;z-index:780;">
 <div id="TextHram_Container" style="width:1920px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_Text84" style="position:absolute;left:353px;top:297px;width:72px;height:21px;z-index:477;cursor: pointer" onclick="Animate('wb_Text84', '', '', '', '', '50', 500, '');$('#LumHram').modal('show');return false;">
 <span style="color:#FFFFFF;font-family:Tahoma;font-size:17px;line-height:21px;"><strong>ЛЮМ</strong></span></div>
@@ -4267,7 +4274,7 @@ $(window).load(function() {
 </div>
 </div>
 </div>
-<div id="Layer14" style="position:absolute;text-align:left;visibility:hidden;left:1103px;top:433px;width:308px;height:391px;z-index:779;">
+<div id="Layer14" style="position:absolute;text-align:left;visibility:hidden;left:1103px;top:433px;width:308px;height:391px;z-index:781;">
 <div id="wb_Text1" style="position:absolute;left:152px;top:10px;width:117px;height:25px;text-align:center;z-index:595;">
 <span style="color:#808080;font-family:Tahoma;font-size:21px;line-height:25px;">Вид карты</span></div>
 <div id="wb_Text2" style="position:absolute;left:152px;top:77px;width:117px;height:69px;text-align:center;z-index:596;">
@@ -4291,7 +4298,7 @@ $(window).load(function() {
 <div id="wb_Text3" style="position:absolute;left:129px;top:234px;width:161px;height:46px;text-align:center;z-index:599;">
 <span style="color:#808080;font-family:Tahoma;font-size:19px;line-height:23px;">Муниципальные образования</span></div>
 </div>
-<div id="VidKartyHram" style="position:absolute;text-align:left;visibility:hidden;left:1103px;top:433px;width:308px;height:391px;z-index:780;">
+<div id="VidKartyHram" style="position:absolute;text-align:left;visibility:hidden;left:1103px;top:433px;width:308px;height:391px;z-index:782;">
 <div id="wb_Text45" style="position:absolute;left:152px;top:10px;width:117px;height:25px;text-align:center;z-index:606;">
 <span style="color:#808080;font-family:Tahoma;font-size:21px;line-height:25px;">Вид карты</span></div>
 <div id="wb_Text72" style="position:absolute;left:152px;top:77px;width:117px;height:69px;text-align:center;z-index:607;">
@@ -4315,7 +4322,7 @@ $(window).load(function() {
 <div id="wb_Text73" style="position:absolute;left:129px;top:234px;width:161px;height:46px;text-align:center;z-index:610;">
 <span style="color:#808080;font-family:Tahoma;font-size:19px;line-height:23px;">Муниципальные образования</span></div>
 </div>
-<div id="LayerMenuRodniki" style="position:absolute;text-align:left;visibility:hidden;left:1184px;top:419px;width:227px;height:379px;z-index:781;">
+<div id="LayerMenuRodniki" style="position:absolute;text-align:left;visibility:hidden;left:1184px;top:419px;width:227px;height:379px;z-index:783;">
 <div id="wb_Text118" style="position:absolute;left:69px;top:110px;width:117px;height:25px;text-align:center;z-index:614;">
 <span style="color:#808080;font-family:Tahoma;font-size:21px;line-height:25px;">Вид карты</span></div>
 <div id="Layer63" style="position:absolute;text-align:left;left:51px;top:291px;width:160px;height:88px;z-index:615;">
@@ -5208,6 +5215,38 @@ $(window).load(function() {
          <a href="images/35_6.JPG" data-rel="PhotoGallery56"><img alt="" src="images/min_35_6.jpg"></a>
       </div>
       <div class="clearfix visible-col2"></div>
+   </div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<div id="LayerZHDDoroga" class="modal fade" role="dialog" style="text-align:left;">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-body">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<textarea name="TextArea2" id="TextArea37" style="position:absolute;left:219px;top:46px;width:773px;height:600px;z-index:709;" rows="25" cols="94" readonly spellcheck="false">Железная дорога.
+
+По территории Глазовского района проходит Горьковская железная дорога, которая является частью Транссибирской магистрали. 
+Вопрос о строительстве железной дороги в Вятской губернии был поднят в 60-х годах XIX  века. Это  время  вошло  в  историю  России  как  время «железнодорожной горячки». Был составлен проект строительства железной дороги Петербург-Владивосток. Позже появилось еще несколько проектов. Однако государственных средств было недостаточно, поэтому привлекался частный капитал. Купцы, промышленники «тянули дорогу», каждый по своим интересам. Возникали споры, где именно пройдет транссибирская магистраль.
+В 1894 году был поднят вопрос о направлении головных участков железной дороги Пермь-Котлас. Представлялась возможность выбора двух вариантов: одного по долине р. Чепцы, через г. Глазов, а другого, по водоразделу рек Чепцы и Кильмези. Комиссия отдала предпочтение Кильмезскому направлению, по которому начались работы. 
+Чернышев Антон Матвеевич (1919 г.р.), житель деревни Тарасёнки Красногорского района, вспоминал, что за их деревней была проведена разметка для железной дороги, стояли столбы. Дорога через Балезино намечалась на Красногорье, Уни и дальше.
+Глазовские купцы забеспокоились, боясь остаться без средств быстрого перевоза своих товаров. Для подкупа нужных чиновников было собрано 2500 рублей. Миссию возложили на купца Сергеева, тогдашнего глазовского городского голову, для этого ему пришлось даже ехать в Петербург. Вскоре появились коррективы к плану: работы по Кильмезскому направлению были приостановлены. Министр путей сообщения М.Хильков призвал пересмотреть вопрос о направлении части дороги в пределах Вятской Губернии, ввиду того, что строительство по Кильмезскому направлению вызвало бы дополнительные расходы, а с принятием Чепецкого направления этот расход был бы сокращен (с 3 млн. руб. до 2,2 млн. руб.), и ходатайствовал о разрешении произвести предварительные изыскания по долине реки Чепцы через Глазов. Также решился вопрос о железнодорожной станции, которая в Глазове будет построена, но без депо, так как депо начали строить уже на станции Балезино. 
+ Строительство Пермско-Котласской железной дороги через Вятку-Глазов-Пермь началось 19 августа 1895 года, шло с двух концов и сомкнулось у станции Чепца. На строительстве полотна были задействованы чернорабочие и крестьяне Вятского, Глазовского, Нолинского и Сарапульского уездов. Строители дороги снимали квартиры в Глазове. Квартирная плата в городе увеличилась настолько, что на наем одной только квартиры приходилась платить уже 200 рублей в год, исключая отопление. Росли цены на продукты питания.
+Технически сооружение дороги было связано с трудностями. Работы велись в основном примитивными орудиями труда (кирка, лопата), а на выемке земли и дамбах использовались лошади. 
+Уже в следующем году, 20 октября 1896 года открылось рабочее движение по дороге. Однако для общественного пользования дорога открывалась частями. Так, в «Вятском местном историческом календаре читаем: 21 октября 1898 года началось отправление поездов по Пермь – Котласской дороге с частными грузами и пассажирских между станциями Вятка – Глазов» (199 вёрст). Это расстояние поезд преодолевал за 12 часов. 
+Вслед за участком Вятка – Глазов, 25 октября 1898 года пущен участок от Глазова до Камы (253 версты;1 верста = 1,0668 км.), а на следующий год, 1 февраля 1899 года, открыто сквозное движение по Пермь-Котласской дороге (817 верст). К концу 1897 года в Глазове были построены станционные здания и другие сооружения, в том числе водокачка, придорожные сторожевые будки и т.д.
+Грузовое железнодорожное движение создало городу Глазову и Глазовскому уезду благоприятные условия для развития более тесных экономических и культурных связей с Уралом, Сибирью, Поволжьем и северными районами России. 
+ 
+			(По материалам публикаций в газете «Красное знамя»)</textarea>
+<div id="wb_PhotoGallery57" style="position:absolute;left:32px;top:44px;width:153px;height:96px;z-index:710;">
+<div id="PhotoGallery57">
+   <div class="thumbnails">
+      <div class="thumbnail">
+         <a href="images/Gzhd.jpg" data-rel="PhotoGallery57"><img alt="" src="images/min_Gzhd.jpg"></a>
+      </div>
+      <div class="clearfix visible-col1"></div>
    </div>
 </div></div>
 </div>
