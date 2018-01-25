@@ -30,6 +30,15 @@ body
    overflow-x: hidden;
    overflow-y: hidden;
 }
+#ImageKompas
+{
+   border: 0px transparent solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
 #wb_TextRodnik 
 {
    background-color: transparent;
@@ -13937,22 +13946,6 @@ body
    box-shadow: none;
    text-align: center;
 }
-#wb_Heading3
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #FFFFFF solid;
-   padding: 0px 0px 0px 0px;
-}
-#Heading3
-{
-   color: #808080;
-   font-family: Tahoma;
-   font-weight: bold;
-   font-size: 32px;
-   margin: 0;
-   text-align: left;
-}
 #Layer19
 {
    background-color: transparent;
@@ -16783,42 +16776,10 @@ body
 {
    display: block;
 }
-#wb_Heading2
+#LayerKompas
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #FFFFFF solid;
-   padding: 0px 0px 0px 0px;
-}
-#Heading2
-{
-   color: #FFFFFF;
-   font-family: Tahoma;
-   font-weight: bold;
-   font-size: 32px;
-   margin: 0;
-   text-align: left;
-}
-#Heading2 a
-{
-   color: #FFFFFF;
-   text-decoration: none;
-}
-#wb_Heading1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #FFFFFF solid;
-   padding: 0px 0px 0px 0px;
-}
-#Heading1
-{
-   color: #FFFFFF;
-   font-family: Tahoma;
-   font-weight: bold;
-   font-size: 32px;
-   margin: 0;
-   text-align: left;
 }
 #LayerZHDDoroga .modal-content
 {
@@ -17018,6 +16979,79 @@ body
 #PhotoGallery57 .visible-col3
 {
    display: none;
+}
+#ImageKolcoKompasa
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image1111
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image2222
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image3333
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Heading2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #FFFFFF solid;
+   padding: 0px 0px 0px 0px;
+}
+#Heading2
+{
+   color: #FFFFFF;
+   font-family: Tahoma;
+   font-weight: bold;
+   font-size: 32px;
+   margin: 0;
+   text-align: left;
+}
+#Heading2 a
+{
+   color: #FFFFFF;
+   text-decoration: none;
+}
+#wb_Heading1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #FFFFFF solid;
+   padding: 0px 0px 0px 0px;
+}
+#Heading1
+{
+   color: #FFFFFF;
+   font-family: Tahoma;
+   font-weight: bold;
+   font-size: 32px;
+   margin: 0;
+   text-align: left;
 }
 .loader {
  background: none repeat scroll 0 0 #FFFFFF;
